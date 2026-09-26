@@ -14,7 +14,7 @@ Examples do not select unspecified field values, policies, algorithms, or orderi
 ```text
 CANONICAL_STATE_INVALID
 
-SCHEMA_INVALID
+DELIBERATELY_INVALID_PROPOSAL
 OBJECT_ID_MISMATCH
 UNKNOWN_NORMATIVE_FIELD
 
