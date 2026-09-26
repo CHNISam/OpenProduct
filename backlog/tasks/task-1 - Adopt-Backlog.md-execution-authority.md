@@ -5,12 +5,13 @@ status: Blocked
 assignee:
   - '@codex'
 created_date: '2026-09-26 16:54'
-updated_date: '2026-09-26 17:03'
+updated_date: '2026-09-26 17:05'
 labels: []
 dependencies:
   - TASK-5
 references:
   - 'https://github.com/CHNISam/OpenProduct/issues/11'
+  - 'https://github.com/CHNISam/OpenProduct/pull/12'
 documentation:
   - spec/README.md
 ordinal: 1000
@@ -45,4 +46,6 @@ Native enforcement gap: OpenHarness model.AUTHORITIES fixes work to github-issue
 Native Backlog doctor reports no duplicate IDs, self dependencies or cycles. Original meaning-closure plan text equality verified using native JSON output before retiring the competing plan. TASK-5 reached Done after red/green and full 71-test acceptance. Remaining: OpenHarness fixed authority profile cannot attest Backlog; exact-head/base owner approval required for protected AGENTS PR. Unblock enforcement through a supported upstream profile; unblock PR integration through native owner approval and trusted acceptance.
 
 Committed migration and runtime proof as dc640f1 on Harness-bound codex/11-backlog. Protected integration remains pending, distinct from local commit completion. Native task JSON confirms TASK-5 completed and its dependency is satisfied; explicit Blocked status still records the external Harness/profile and owner-approval gaps.
+
+Submitted protected PR 12. Trusted run 36257701245 rejects the AGENTS control change: Protected control change requires native owner approval bound to head and base. Local verification remains PASS; remote candidate acceptance/integration are not claimed. The current PR head/base must be freshly approved through the native Issue binding.
 <!-- SECTION:NOTES:END -->
