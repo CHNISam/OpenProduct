@@ -21,7 +21,8 @@ class GitFixture(unittest.TestCase):
         self.temp.cleanup()
 
     def git(self, *args):
-        return subprocess.check_output(['git', '-C', str(self.root), *args], stderr=subprocess.STDOUT).decode().strip()
+        result = subprocess.run(['git', '-C', str(self.root), *args], capture_output=True, check=True)
+        return result.stdout.decode().strip()
 
     def write(self, revision=1, content='Tools'):
         (self.root / '.openproduct/objects/directions/why.md').write_text('---\n' + json.dumps(dict(id='why',type='direction',revision=revision,title='Why')) + '\n---\n## Intent\n' + content, encoding='utf-8')
