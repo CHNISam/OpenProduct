@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "repository": "CHNISam/OpenProduct",
+  "policy": "51fa0067089910bac4ba5d370d250f900825b2213f918baaf3d619eaf9abeab3",
+  "cases": {
+    "valid": {
+      "pr": 2,
+      "head": "6d03833a531b67be6c115c12c8075f0483da12e3"
+    },
+    "invalid": {
+      "pr": 3,
+      "head": "d1e8c34c5698c3483f49252e2fdff08c8875fe15",
+      "rule_suite_id": 4239556112
+    },
+    "source-spoof": {
+      "pr": 4,
+      "head": "8a4c343e97ea83f3beabcf86867f771bf87f699d",
+      "rule_suite_id": 4239556352,
+      "blocked_run": 36237169658
+    },
+    "direct-update": {
+      "head": "0d38509a22dca9e6dd187c9e2d7798b20affd4f2",
+      "rule_suite_id": 4239547820
+    }
+  }
+}
