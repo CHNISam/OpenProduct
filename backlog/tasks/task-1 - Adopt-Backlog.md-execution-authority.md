@@ -5,7 +5,7 @@ status: Blocked
 assignee:
   - '@codex'
 created_date: '2026-09-26 16:54'
-updated_date: '2026-09-26 17:02'
+updated_date: '2026-09-26 17:03'
 labels: []
 dependencies:
   - TASK-5
@@ -28,7 +28,7 @@ User-authorized migration to one execution authority. Preserve Product meaning, 
 - [x] #2 Agent guidance routes execution state exclusively to Backlog
 - [x] #3 Real runtime task lifecycle is verified
 - [ ] #4 Enforced workflow accepts Backlog as sole work authority
-- [ ] #5 Changes are committed through legitimate workflow
+- [x] #5 Changes are committed through legitimate workflow
 <!-- AC:END -->
 
 ## Implementation Plan
@@ -43,4 +43,6 @@ Inventory live work; initialize native CLI; migrate work and retire trackers; ve
 Native enforcement gap: OpenHarness model.AUTHORITIES fixes work to github-issues and validate_config rejects Backlog; ci.candidate_context requires an open Issue. Do not claim enforced sole authority until a supported upstream profile exists. Protected AGENTS change additionally needs exact-head/base owner approval after PR submission.
 
 Native Backlog doctor reports no duplicate IDs, self dependencies or cycles. Original meaning-closure plan text equality verified using native JSON output before retiring the competing plan. TASK-5 reached Done after red/green and full 71-test acceptance. Remaining: OpenHarness fixed authority profile cannot attest Backlog; exact-head/base owner approval required for protected AGENTS PR. Unblock enforcement through a supported upstream profile; unblock PR integration through native owner approval and trusted acceptance.
+
+Committed migration and runtime proof as dc640f1 on Harness-bound codex/11-backlog. Protected integration remains pending, distinct from local commit completion. Native task JSON confirms TASK-5 completed and its dependency is satisfied; explicit Blocked status still records the external Harness/profile and owner-approval gaps.
 <!-- SECTION:NOTES:END -->
