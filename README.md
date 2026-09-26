@@ -13,7 +13,7 @@ openproduct --help
 
 For reproducible automation, replace `main` with a reviewed commit or release tag. The installed package includes the canonical runtime specification; consuming repositories do not need an OpenProduct source checkout or `PYTHONPATH`.
 
-Start with [usage](docs/usage.md), [the canonical contract](spec/README.md), or [repository agent instructions](AGENTS.md). OpenProduct v0.1 runtime acceptance is closed; OpenHarness owns repository execution and integration guarantees.
+Start with [usage](docs/usage.md), [the canonical contract](spec/README.md), or [repository agent instructions](AGENTS.md). OpenProduct v0.1 runtime acceptance is closed. [Backlog.md](docs/execution.md) owns engineering execution state; the [frozen implementation obligations](docs/implementation-contract.md) retain product implementation requirements. OpenHarness retains protected integration and evidence gates, with its legacy work-authority compatibility gap tracked in Backlog.
 
 ```powershell
 openproduct --help

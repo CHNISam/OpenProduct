@@ -18,7 +18,10 @@ class Repository:
             if optional:
                 return None
             raise ProductError('SCHEMA_INVALID', 'Git operation failed: ' + args[0])
-        return result.stdout.decode('utf-8', errors='strict').strip()
+        try:
+            return result.stdout.decode('utf-8', errors='strict').strip()
+        except UnicodeDecodeError as error:
+            raise ProductError('SCHEMA_INVALID', 'Git output is not valid UTF-8: ' + args[0]) from error
 
     def resolve(self, ref):
         if not isinstance(ref, str) or not ref or ref.startswith('-') or '\n' in ref:

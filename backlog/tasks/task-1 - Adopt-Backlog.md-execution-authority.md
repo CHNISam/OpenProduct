@@ -1,0 +1,51 @@
+---
+id: TASK-1
+title: Adopt Backlog.md execution authority
+status: Blocked
+assignee:
+  - '@codex'
+created_date: '2026-09-26 16:54'
+updated_date: '2026-09-26 17:05'
+labels: []
+dependencies:
+  - TASK-5
+references:
+  - 'https://github.com/CHNISam/OpenProduct/issues/11'
+  - 'https://github.com/CHNISam/OpenProduct/pull/12'
+documentation:
+  - spec/README.md
+ordinal: 1000
+---
+
+## Description
+
+<!-- SECTION:DESCRIPTION:BEGIN -->
+User-authorized migration to one execution authority. Preserve Product meaning, existing dirty work, and protected PR integration. GitHub Issue 11 is the legacy gate binding only.
+<!-- SECTION:DESCRIPTION:END -->
+
+## Acceptance Criteria
+<!-- AC:BEGIN -->
+- [x] #1 Current actionable work is migrated without duplication or loss
+- [x] #2 Agent guidance routes execution state exclusively to Backlog
+- [x] #3 Real runtime task lifecycle is verified
+- [ ] #4 Enforced workflow accepts Backlog as sole work authority
+- [x] #5 Changes are committed through legitimate workflow
+<!-- AC:END -->
+
+## Implementation Plan
+
+<!-- SECTION:PLAN:BEGIN -->
+Inventory live work; initialize native CLI; migrate work and retire trackers; verify a contract-backed runtime fix; submit a bound PR. Keep Product and integration authorities intact.
+<!-- SECTION:PLAN:END -->
+
+## Implementation Notes
+
+<!-- SECTION:NOTES:BEGIN -->
+Native enforcement gap: OpenHarness model.AUTHORITIES fixes work to github-issues and validate_config rejects Backlog; ci.candidate_context requires an open Issue. Do not claim enforced sole authority until a supported upstream profile exists. Protected AGENTS change additionally needs exact-head/base owner approval after PR submission.
+
+Native Backlog doctor reports no duplicate IDs, self dependencies or cycles. Original meaning-closure plan text equality verified using native JSON output before retiring the competing plan. TASK-5 reached Done after red/green and full 71-test acceptance. Remaining: OpenHarness fixed authority profile cannot attest Backlog; exact-head/base owner approval required for protected AGENTS PR. Unblock enforcement through a supported upstream profile; unblock PR integration through native owner approval and trusted acceptance.
+
+Committed migration and runtime proof as dc640f1 on Harness-bound codex/11-backlog. Protected integration remains pending, distinct from local commit completion. Native task JSON confirms TASK-5 completed and its dependency is satisfied; explicit Blocked status still records the external Harness/profile and owner-approval gaps.
+
+Submitted protected PR 12. Trusted run 36257701245 rejects the AGENTS control change: Protected control change requires native owner approval bound to head and base. Local verification remains PASS; remote candidate acceptance/integration are not claimed. The current PR head/base must be freshly approved through the native Issue binding.
+<!-- SECTION:NOTES:END -->
