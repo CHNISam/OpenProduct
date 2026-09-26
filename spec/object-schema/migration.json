@@ -1,0 +1,27 @@
+{
+  "sourceOwner": "contract.md#s-004",
+  "policy": "Deterministic source-preserving import. Never infer authority, PASS or relations from prose. All imported objects start Draft/revision 1. Explicit mappings below; unmatched documents become Evidence of source existence with immutable source copies. Execution tasks remain source material, never another Product type.",
+  "mappings": {
+    "objective": {
+      "type": "outcome",
+      "section": "Success Criteria",
+      "sourceSection": "What we know"
+    },
+    "opportunity": {
+      "type": "opportunity",
+      "section": "Problem",
+      "sourceSection": "1. Problem summary"
+    },
+    "solution": {
+      "type": "solution",
+      "section": "Approach",
+      "sourceSection": "Pitch"
+    }
+  },
+  "relations": {
+    "solution.opportunity": "addresses"
+  },
+  "missingSection": "Preserve as source Evidence, report unmapped Product content; do not fabricate a canonical section",
+  "sourceCopies": "migration-sources/<SHA256(raw bytes)>.<original suffix>; excluded from normative state except explicit sourceRefs",
+  "unknownMetadata": "Retained in byte-preserved original only"
+}

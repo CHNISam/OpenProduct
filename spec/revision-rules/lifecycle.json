@@ -1,0 +1,9 @@
+{
+  "sourceOwner": "contract.md#s-019",
+  "newRevision": 1,
+  "semanticIncrement": 1,
+  "unchangedIncrement": 0,
+  "idAndType": "Immutable for an existing id; re-identification is retirement/deletion plus a new id at revision 1.",
+  "hardDelete": "Only a Retired baseline object with no remaining incoming canonical references may be removed; Git preserves its history.",
+  "targetRevision": "Capability targetRevision starts at 1. Normalized Target or Criteria change increments it exactly once; otherwise unchanged. It identifies criteria independently from the capability object revision, avoiding proof/status circularity."
+}

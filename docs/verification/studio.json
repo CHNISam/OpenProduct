@@ -1,0 +1,20 @@
+{
+  "projection": "static HTML; read-only generation-time snapshot",
+  "fixture": "Public synthetic two-object graph; no private project data transferred to browser",
+  "browser": "Codex in-app browser",
+  "checks": {
+    "workingCheck": "PASS",
+    "acceptedCanonical": "PASS",
+    "search": "PASS",
+    "typeFilter": "PASS",
+    "sourceOwnedRelationNavigation": "PASS",
+    "derivedIncomingNavigation": "PASS",
+    "scopedCopyPreview": "PASS",
+    "copySuccessFeedback": "PASS",
+    "downloadPayloadEqualsVisiblePreview": "PASS",
+    "contextFingerprintInBundle": "PASS",
+    "noUnrelatedObjectsInBundle": "PASS"
+  },
+  "verificationBoundary": "The browser exposed the download link and its decoded Markdown payload; the connector did not expose a file download event. Clipboard feedback and visible preview were verified; operating-system clipboard persistence is outside this evidence. No live Product authority is derived from the UI.",
+  "studioModuleFingerprint": "9eaec6740201a82ecfebef8b59dae8ab1d5e7dbf051fd2c262aa37590ebb8f06"
+}

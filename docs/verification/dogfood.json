@@ -1,0 +1,106 @@
+{
+  "sourceHead": "4fe644a9d66e5d2cb690ba67940556a40159092e",
+  "sourceUnchanged": true,
+  "sourceArchiveFingerprint": "f1e5ee88c4e2126302d211e6d6edcd4db018cc831c93a056dd5af4482a12f32e",
+  "donorAuditFingerprint": "a9ccbb88140eafce80c9dda276ad40eb27ce25b7038f3dd90bdd932b8455b547",
+  "migration": {
+    "result": "PASS",
+    "objects": 252,
+    "sourceCopies": 252,
+    "mappedProductObjects": 41,
+    "warnings": [
+      {
+        "reason": "Source section outside canonical grammar; retained as Evidence"
+      },
+      {
+        "reason": "Source section outside canonical grammar; retained as Evidence"
+      },
+      {
+        "reason": "Source section outside canonical grammar; retained as Evidence"
+      },
+      {
+        "reason": "Source section outside canonical grammar; retained as Evidence"
+      },
+      {
+        "reason": "Source section outside canonical grammar; retained as Evidence"
+      }
+    ]
+  },
+  "migrationAccepted": true,
+  "namelessAccepted": true,
+  "genericAgent": "codex-cli 0.157.1; fresh ephemeral session",
+  "proposalCommit": "bee685340e4152ca27803212b7d409b4b89f4606",
+  "priorCanonicalCommit": "b2c602fb76c0753a155da66393a7481d4a088adb",
+  "canonicalIntegrationCommit": "22b091208ef788fe2ebd5d551f3ed63cb0636909",
+  "proposalFingerprint": "5b7158476baa57c3e34a28c02c35c8727efa953420e9f76b4f62fd2a29323de2",
+  "priorCanonicalFingerprint": "6158c5923bb27679f293cd78ffb8326156424a93a8785ecd0d76afab5e6fd8d9",
+  "contextObjectSet": [
+    "donor-readiness",
+    "donor-selection"
+  ],
+  "contextFingerprint": "4c5b49f2712d5b5e93f30eedfb7e7ca6c880d6b07831607a627477c1a03ca4b7",
+  "checks": {
+    "changed": "PASS",
+    "against": "PASS",
+    "all": "PASS"
+  },
+  "integrationAccepted": true,
+  "sourceHeadUnchanged": true,
+  "sourceArchiveUnchanged": true,
+  "changedPaths": [
+    ".openproduct/checkproofs/4d0f9b4a32156ad61c7374cad616b1fa1fe4f2b0bde84e0bdca9544dc66559c2.json",
+    ".openproduct/objects/outcomes/donor-selection.md"
+  ],
+  "agentLogFingerprint": "352cee78fd908625d7fca3ccce92b42f457481fca5680afc5486f3855083593a",
+  "donorAuditIdentityKind": "SHA256 of Git archive bytes; LF-normalized source blob equality independently checked",
+  "migrationFinalCanonicalCommit": "6048088d889dbe8b9de81047517814d4ba6a1688",
+  "migrationFinalProof": {
+    "checkedCommit": "45679f3a7ec9db5a9e39856de2d90926904c00bc",
+    "checkedTree": "4dc6c487130bcbcb7b114b19a25cda55f1df95cafc3ab7a87d5bb31601d89be3",
+    "checkerBuild": "dee551092cab5d29c5d4dfd0d5951b2a97dd1ec72be41de2d456d82254ec5729",
+    "checkerVersion": "0.1.0",
+    "productStateFingerprint": "29efb5c0c8596e355827dba4591f994667d9f7f5d88ed8fba95e581feb75d1e7",
+    "result": "PASS",
+    "revisionBaseline": null,
+    "specFingerprint": "08ce927f9c3429ee9d0aa839cb8514d36e0c40c5925522c2dbcdd2822b186237"
+  },
+  "migrationPreservedBytesIndependentlyVerified": true,
+  "finalIndependentVerification": {
+    "proposalCommit": "68950e368d594c9aed95abcbf1b690aebe2926b5",
+    "canonicalIntegrationCommit": "c872a19b4a147e2ef9106a2ca82f17927d11f122",
+    "integrationAccepted": true,
+    "acceptedProof": {
+      "checkedCommit": "c872a19b4a147e2ef9106a2ca82f17927d11f122",
+      "checkedTree": "858e35ed52edaf1720f30195fb2b965d82e5d2a7487f2068a0164a8b9a57c412",
+      "checkerBuild": "dee551092cab5d29c5d4dfd0d5951b2a97dd1ec72be41de2d456d82254ec5729",
+      "checkerVersion": "0.1.0",
+      "productStateFingerprint": "0a4c19b6f9e1f374120c01595a30c3c0b1ee1a9f2b9e9cba6114fd77faeb0887",
+      "result": "PASS",
+      "revisionBaseline": "f7cfc3120eff649b7bddb1b5c10f6329fd4e1568",
+      "specFingerprint": "08ce927f9c3429ee9d0aa839cb8514d36e0c40c5925522c2dbcdd2822b186237"
+    },
+    "contextObjectSet": [
+      "donor-readiness",
+      "donor-selection"
+    ],
+    "contextFingerprint": "0ad6fafd1f4635584a423e1eec1e0bde9d5ddf881cf6acc99d216d9e661663f3",
+    "sourceHeadUnchanged": true,
+    "sourceArchiveUnchanged": true,
+    "allArchivedSourceBytesUnchanged": true,
+    "onlyProductProposalAndProofChanged": true,
+    "acceptedCanonicalCommit": "7b9724185d742c558ad96b485529811fb717c12b"
+  },
+  "finalGenericAgentVerification": {
+    "agent": "codex-cli 0.157.1; fresh ephemeral session",
+    "interface": "ordinary files, Git and Python -S; no MCP or third-party dependencies",
+    "proposalCommit": "7afaafdaa67087442580d8099e50951f02d4ae0f",
+    "canonicalCommitAtVerification": "0d9cab717fed84f095c37ac399158831b0a79a6f",
+    "checks": {
+      "changed": "PASS",
+      "against": "PASS",
+      "all": "PASS",
+      "accepted": "PASS"
+    },
+    "logFingerprint": "ff3da79adb8aebe65038ce6cd3e12d593bce5ffd26fdc172b5108741922aeda0"
+  }
+}

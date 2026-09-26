@@ -1,3 +1,11 @@
+# Current implementation readiness
+
+The closure goal authorized concrete definitions under the frozen owners; they are linked from [spec/README.md](../../spec/README.md). The runtime, real Git checks, G-01–G-23, source-preserving NanoPM migration, task Context Compiler/Copy for Agent and static Studio are implemented. Repository verification includes runtime regressions through the existing OpenHarness verification command. Executable acceptance and dogfood evidence are recorded under [verification](../verification/README.md). The bound native PR and OpenHarness integration/release records establish execution closure; the historical observation below is not a current blocker.
+
+See [usage](../usage.md) and [dogfood evidence](../verification/dogfood.json). Stage 1 dispositions remain historical compilation evidence, separate from runtime acceptance.
+
+## Historical readiness observation before the current closure authorization
+
 # Stage 2 implementation readiness
 
 Status: specification-completion authority supplied by the current closure goal. The gaps below are the historical pre-implementation inventory; they are now authorized to be filled within the frozen distinctions and existing canonical owners. Implementation acceptance is not yet proven.
@@ -31,3 +39,7 @@ For example, the source mentions `Outcome.successCriteria` but does not establis
 Supply the previously frozen concrete definitions, or explicitly authorize completing these still-unspecified normative definitions in their existing canonical owners under the frozen distinctions. This is a bounded semantic authority question; no architecture redesign, replacement of compilation, or reinterpretation of golden cases is proposed.
 
 Pending that resolution, Stage 2 remains incomplete. No runtime implementation, golden PASS, real Git semantic PASS, generic-agent dogfood PASS, or enforcement graduation is asserted. Real Git evidence currently proves only the independent contract baseline and provenance preservation.
+
+## Authorized specification completion
+
+The closure goal has authorized these definitions. The concrete normative JSON definitions linked in `spec/README.md` now establish the allowed representation, statuses, per-type canonical fields, single relation ownership, scoped proof bindings, lifecycle/deletion, normalization/serialization, impact traversal and bounded context policy. Step 1 is represented; runtime rejection and interoperability tests must still prove conformance. JSON-form YAML 1.2 is the supported frontmatter/config grammar; no external database, daemon, MCP or proprietary API is required.

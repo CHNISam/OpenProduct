@@ -1,0 +1,52 @@
+{
+  "sourceOwner": "contract.md#s-017",
+  "hash": "SHA-256",
+  "encoding": "UTF-8",
+  "serialization": "JSON with sorted Unicode codepoint keys, separators comma/colon, ensure_ascii=false, allow_nan=false, no trailing newline",
+  "strings": "Unicode NFC; normative text whitespace collapsed; lexical case retained",
+  "unorderedArrays": [
+    "relations",
+    "labels",
+    "sourceRefs",
+    "realizations",
+    "executionRefs"
+  ],
+  "objectOrdering": [
+    "type",
+    "id"
+  ],
+  "semanticExcluded": [
+    "revision"
+  ],
+  "productState": "normalized config plus sorted {id,type,revision,semanticFingerprint}; excludes current.md, proof files, caches, docs, application files, Git metadata",
+  "checkedTree": "Hash of normalized config and complete normalized canonical object representations including revision, excluding non-normative prose",
+  "specIdentity": "Sorted paths and normalized semantic content of normative contract sections and JSON definitions. Exclude README, docs, audit/provenance, source wrappers, comments, $comment, description, examples and rationale-only S-023. Contract source requirement text retains its force.",
+  "checkerIdentity": "SHA-256 of all runtime module paths/content with LF line endings; checkerVersion is informational, checkerBuild binds PASS.",
+  "markdownIdentity": "Within compiled clause boundaries, exclude headings/presentation, comments, rationale-only S-023 and the explicitly delimited illustrative/explanatory regions below. Regex boundaries are normative identity policy; the remaining live source requirement text retains force.",
+  "markdownExcludedRegions": {
+    "S-007": [
+      "```yaml\\n.*?\\n```"
+    ],
+    "S-014": [
+      "例如：.*?(?=默认：)"
+    ],
+    "S-015": [
+      "例如：.*?(?=Invariant：)"
+    ],
+    "S-017": [
+      "原因：.*?(?=同时排除：)"
+    ],
+    "S-024": [
+      "，例如：.*?(?=\\n---)"
+    ],
+    "S-029": [
+      "例如：.*?(?=而：)"
+    ],
+    "S-032": [
+      "例如：.*?(?=具体：)"
+    ],
+    "S-039": [
+      "它证明：.*"
+    ]
+  }
+}

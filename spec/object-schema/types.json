@@ -1,0 +1,200 @@
+{
+  "sourceOwner": "contract.md#s-004",
+  "types": {
+    "direction": {
+      "directory": "directions",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Retired"
+      ]
+    },
+    "principle": {
+      "directory": "principles",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Retired"
+      ]
+    },
+    "constraint": {
+      "directory": "constraints",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Retired"
+      ]
+    },
+    "outcome": {
+      "directory": "outcomes",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Supported",
+        "Retired"
+      ]
+    },
+    "opportunity": {
+      "directory": "opportunities",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Retired"
+      ]
+    },
+    "solution": {
+      "directory": "solutions",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Selected",
+        "Retired"
+      ]
+    },
+    "assumption": {
+      "directory": "assumptions",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Retired"
+      ]
+    },
+    "experiment": {
+      "directory": "experiments",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Retired"
+      ]
+    },
+    "capability": {
+      "directory": "capabilities",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Closed",
+        "Retired"
+      ]
+    },
+    "evidence": {
+      "directory": "evidence",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Retired"
+      ]
+    },
+    "claim": {
+      "directory": "claims",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Retired"
+      ]
+    },
+    "judgment": {
+      "directory": "judgments",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Retired"
+      ]
+    },
+    "decision": {
+      "directory": "decisions",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Superseded",
+        "Retired"
+      ]
+    },
+    "risk": {
+      "directory": "risks",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Retired"
+      ]
+    },
+    "verification": {
+      "directory": "verifications",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Retired"
+      ]
+    },
+    "validation": {
+      "directory": "validations",
+      "statuses": [
+        "Draft",
+        "Active",
+        "Retired"
+      ]
+    }
+  },
+  "specialRequired": {
+    "capability": [
+      "targetRevision"
+    ],
+    "decision": [
+      "topic"
+    ],
+    "judgment": [
+      "binding"
+    ],
+    "verification": [
+      "binding",
+      "result"
+    ],
+    "validation": [
+      "binding",
+      "result"
+    ]
+  },
+  "specialAllowed": {
+    "capability": [
+      "targetRevision",
+      "realizations",
+      "currentRealization"
+    ],
+    "decision": [
+      "topic"
+    ],
+    "judgment": [
+      "binding"
+    ],
+    "verification": [
+      "binding",
+      "result"
+    ],
+    "validation": [
+      "binding",
+      "result"
+    ]
+  },
+  "commonFields": [
+    "id",
+    "type",
+    "revision",
+    "title",
+    "status",
+    "relations",
+    "labels",
+    "sourceRefs"
+  ],
+  "invariants": [
+    "no_dangling_relations",
+    "active_decision_basis",
+    "selected_solution_active_decision",
+    "supported_outcome_applicable_judgment",
+    "current_realization_explicit_selection",
+    "current_realization_previously_accepted",
+    "closed_gap_applicable_pass_verification",
+    "incompatible_active_decisions",
+    "revision_scoped_proof",
+    "source_owned_relations",
+    "capability_target_conflict"
+  ]
+}

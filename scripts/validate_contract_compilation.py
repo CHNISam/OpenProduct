@@ -215,6 +215,31 @@ def self_test(root: Path) -> list[str]:
     return passed
 
 
+def runtime_acceptance(root: Path) -> dict:
+    """The managed verification entry also requires the v0.1 runtime gate."""
+    import sys
+    import unittest
+    sys.path.insert(0, str(root))
+    loader = unittest.TestLoader()
+    suite = loader.discover(str(root / "tests"))
+    def cases(group):
+        for test in group:
+            if isinstance(test, unittest.TestSuite):
+                yield from cases(test)
+            else:
+                yield test
+    ids = [test.id() for test in cases(suite)]
+    required = {f"G{number:02}" for number in range(1, 24)}
+    observed = {match.group(1) for id in ids
+                if (match := re.search(r"\.test_(G\d{2})_", id))}
+    if not (root / "openproduct/__main__.py").is_file() or required - observed:
+        raise AuditFailure("Runtime acceptance incomplete: missing CLI or Golden cases " + str(sorted(required - observed)))
+    result = unittest.TextTestRunner(verbosity=2).run(suite)
+    if not result.wasSuccessful():
+        raise AuditFailure("Runtime acceptance FAIL")
+    return {"result": "PASS", "tests": result.testsRun, "golden": sorted(required)}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--self-test", action="store_true")
@@ -224,6 +249,7 @@ def main() -> None:
         result = check(root)
         if args.self_test:
             result["rejectionSelfTests"] = self_test(root)
+            result["runtimeAcceptance"] = runtime_acceptance(root)
         print(json.dumps(result, ensure_ascii=False, indent=2))
     except (AuditFailure, KeyError, FileNotFoundError, ValueError) as error:
         parser.exit(1, f"Compilation FAIL: {error}\n")
