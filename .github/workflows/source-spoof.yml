@@ -1,0 +1,8 @@
+name: Candidate-controlled source probe
+on: [push, pull_request]
+permissions: {}
+jobs:
+  untrusted:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "This candidate workflow must never execute"
