@@ -4,7 +4,9 @@ import json
 import re
 import unicodedata
 
-SPEC = Path(__file__).resolve().parents[1] / 'spec'
+PACKAGE_SPEC = Path(__file__).resolve().parent / '_spec'
+SOURCE_SPEC = Path(__file__).resolve().parents[1] / 'spec'
+SPEC = PACKAGE_SPEC if PACKAGE_SPEC.is_dir() else SOURCE_SPEC
 
 def definition(path):
     return json.loads((SPEC / path).read_text(encoding='utf-8-sig'))
