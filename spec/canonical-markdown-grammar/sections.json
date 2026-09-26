@@ -1,0 +1,137 @@
+{
+  "sourceOwner": "contract.md#s-013",
+  "types": {
+    "direction": {
+      "required": [
+        "Intent"
+      ],
+      "optional": [
+        "Scope"
+      ]
+    },
+    "principle": {
+      "required": [
+        "Rule"
+      ],
+      "optional": [
+        "Scope"
+      ]
+    },
+    "constraint": {
+      "required": [
+        "Rule"
+      ],
+      "optional": [
+        "Scope"
+      ]
+    },
+    "outcome": {
+      "required": [
+        "Success Criteria"
+      ],
+      "optional": [
+        "Measurement"
+      ]
+    },
+    "opportunity": {
+      "required": [
+        "Problem"
+      ],
+      "optional": [
+        "Scope"
+      ]
+    },
+    "solution": {
+      "required": [
+        "Approach"
+      ],
+      "optional": [
+        "Scope"
+      ]
+    },
+    "assumption": {
+      "required": [
+        "Statement"
+      ],
+      "optional": [
+        "Scope"
+      ]
+    },
+    "experiment": {
+      "required": [
+        "Method"
+      ],
+      "optional": [
+        "Criteria"
+      ]
+    },
+    "capability": {
+      "required": [
+        "Target"
+      ],
+      "optional": [
+        "Criteria"
+      ]
+    },
+    "evidence": {
+      "required": [
+        "Observation"
+      ],
+      "optional": [
+        "Method"
+      ]
+    },
+    "claim": {
+      "required": [
+        "Statement"
+      ],
+      "optional": [
+        "Scope"
+      ]
+    },
+    "judgment": {
+      "required": [
+        "Conclusion"
+      ],
+      "optional": [
+        "Scope"
+      ]
+    },
+    "decision": {
+      "required": [
+        "Choice"
+      ],
+      "optional": []
+    },
+    "risk": {
+      "required": [
+        "Description"
+      ],
+      "optional": [
+        "Mitigation"
+      ]
+    },
+    "verification": {
+      "required": [
+        "Method"
+      ],
+      "optional": []
+    },
+    "validation": {
+      "required": [
+        "Measurement"
+      ],
+      "optional": []
+    }
+  },
+  "heading": "Exactly ## <case-sensitive section name> outside fenced code blocks",
+  "multiplicity": 1,
+  "freeform": "Every other section and all pre-section body text are non-normative. No inference from prose.",
+  "normalization": {
+    "unicode": "NFC",
+    "whitespace": "collapse",
+    "inlineFormatting": "Outside fences, remove paired inline emphasis/backtick markers and leading Markdown bullet/number markers, preserving lexical content and item sequence. Remove opening/closing fence delimiters only; fenced body characters are literal lexical content. Links retain label and destination. No HTML markup outside fenced literals.",
+    "sectionOrdering": "Non-semantic; serialize section keys in Unicode codepoint order",
+    "emptyRequired": "SCHEMA_INVALID"
+  }
+}

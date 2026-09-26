@@ -1,0 +1,100 @@
+{
+  "sourceOwner": "contract.md#s-032",
+  "policy": "Fixed-point bidirectional traversal over the following canonical dependency kinds, including old and new edges for relation changes/deletions. Conservative relevance closure checks every applicable invariant on affected objects. No hidden NLP edges.",
+  "fieldChanges": {
+    "frontmatter": [
+      "addresses",
+      "basis",
+      "conflictsWith",
+      "evidence",
+      "realizes",
+      "requires",
+      "selects",
+      "selectsRealization",
+      "supports",
+      "validates",
+      "verifies"
+    ],
+    "canonicalSections": [
+      "addresses",
+      "basis",
+      "conflictsWith",
+      "evidence",
+      "realizes",
+      "requires",
+      "selects",
+      "selectsRealization",
+      "supports",
+      "validates",
+      "verifies"
+    ],
+    "relations": [
+      "addresses",
+      "basis",
+      "conflictsWith",
+      "evidence",
+      "realizes",
+      "requires",
+      "selects",
+      "selectsRealization",
+      "supports",
+      "validates",
+      "verifies"
+    ],
+    "revision": [
+      "addresses",
+      "basis",
+      "conflictsWith",
+      "evidence",
+      "realizes",
+      "requires",
+      "selects",
+      "selectsRealization",
+      "supports",
+      "validates",
+      "verifies"
+    ],
+    "deletion": [
+      "addresses",
+      "basis",
+      "conflictsWith",
+      "evidence",
+      "realizes",
+      "requires",
+      "selects",
+      "selectsRealization",
+      "supports",
+      "validates",
+      "verifies"
+    ],
+    "addition": [
+      "addresses",
+      "basis",
+      "conflictsWith",
+      "evidence",
+      "realizes",
+      "requires",
+      "selects",
+      "selectsRealization",
+      "supports",
+      "validates",
+      "verifies"
+    ]
+  },
+  "edgeKinds": [
+    "addresses",
+    "basis",
+    "conflictsWith",
+    "evidence",
+    "realizes",
+    "requires",
+    "selects",
+    "selectsRealization",
+    "supports",
+    "validates",
+    "verifies"
+  ],
+  "invariants": "Every applicable invariant listed in object-schema/types.json; graph-global conflict groups involving affected targets/topics also checked.",
+  "changed": "Working tree versus HEAD for local semantic/revision diff; acceptance revisions always use recognized canonical baseline.",
+  "againstCanonical": "Real merge-base B, canonical accepted tip T, proposal H; concurrent unequal changes to the same semantic object surface STALE_OBJECT and SEMANTIC_CONFLICT; no latest-writer choice."
+}

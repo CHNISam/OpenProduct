@@ -1,0 +1,15 @@
+{
+  "sourceOwner": "contract.md#s-040",
+  "required": [
+    "code",
+    "objects",
+    "sourceLocation",
+    "explanation",
+    "nextAction"
+  ],
+  "resultEnvelope": [
+    "result",
+    "errors"
+  ],
+  "sourceLocation": "Repository-relative path plus field/section locator when known; no machine-local secret or credential data."
+}

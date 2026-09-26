@@ -1,0 +1,13 @@
+# OpenProduct v0.1 acceptance evidence
+
+The [runtime suite and preserved compilation audit](acceptance.json) cover the frozen [acceptance owner](../implementation-contract.md#s-043). Run `python -X utf8 scripts/validate_contract_compilation.py --self-test` to reproduce the candidate checks. The compilation report's limitation concerns its historical representation audit; the separate `runtimeAcceptance` field records executable runtime checks. Historical ENFORCED/DEFERRED/N/A dispositions have not been rewritten as runtime results.
+
+The implementation supplies concrete normative definitions under the existing nine `/spec` owners, all sixteen object types, strict canonical parsing, source-owned graph relations, revision/lifecycle predicates, deterministic fingerprints, CheckProof, real Git canonical/baseline/merge semantics, three check modes, semantic impact closure, task context, source-preserving migration, Context Compiler and Studio. Runtime tests include all G01–G23 and regressions from native review, including rejected proposal baselines, stale proofs, canonical-ref redirects and repeated checker revalidation.
+
+[Dogfood evidence](dogfood.json) records the real NanoPM source migration and fresh generic coding-agent work on an isolated Git archive of Nameless Reach. The archive protects the live project's existing authority and source state; its observed decisions are retained without inventing approved donors or Outcome proof. Generic agents use ordinary files, Git and Python with site initialization disabled; no MCP, database, service, proprietary SDK or third-party dependency is needed. Public evidence contains hashes/counts and fixture commit bindings, not private source material.
+
+[Studio evidence](studio.json) records browser interaction with a public synthetic fixture. The static projection exposes scoped context and derived graph navigation; it is never acceptance authority. Regenerate it after Product edits.
+
+The real dogfood gate permits retiring NanoPM Studio/Viewer from this repository's Product front door. OpenProduct CLI, Context Compiler and Studio now provide that workflow; no NanoPM viewer dependency or parallel Product authority exists here. Upstream reference checkouts and the live Nameless Reach repository remain source references governed by their own authority.
+
+Native Codex review findings are reproduced and fixed before integration. GitHub Issues, the bound PR, trusted candidate checks and OpenHarness integration/release records own execution closure; this evidence document is a reproducible report, not another work tracker or approval system.

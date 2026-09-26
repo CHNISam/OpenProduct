@@ -1,0 +1,166 @@
+{
+  "sourceOwner": "contract.md#s-015",
+  "relations": {
+    "requires": {
+      "source": [
+        "outcome"
+      ],
+      "target": [
+        "capability"
+      ],
+      "attributes": [
+        "requestedTarget",
+        "scope",
+        "criticality"
+      ]
+    },
+    "addresses": {
+      "source": [
+        "solution"
+      ],
+      "target": [
+        "opportunity"
+      ],
+      "attributes": []
+    },
+    "selects": {
+      "source": [
+        "decision"
+      ],
+      "target": [
+        "solution"
+      ],
+      "attributes": []
+    },
+    "selectsRealization": {
+      "source": [
+        "decision"
+      ],
+      "target": [
+        "capability"
+      ],
+      "attributes": [
+        "realization"
+      ]
+    },
+    "supports": {
+      "source": [
+        "judgment"
+      ],
+      "target": [
+        "outcome"
+      ],
+      "attributes": []
+    },
+    "verifies": {
+      "source": [
+        "verification"
+      ],
+      "target": [
+        "capability"
+      ],
+      "attributes": []
+    },
+    "validates": {
+      "source": [
+        "validation"
+      ],
+      "target": [
+        "outcome"
+      ],
+      "attributes": []
+    },
+    "evidence": {
+      "source": [
+        "verification",
+        "validation",
+        "claim",
+        "judgment",
+        "experiment"
+      ],
+      "target": [
+        "evidence"
+      ],
+      "attributes": [
+        "revision"
+      ]
+    },
+    "basis": {
+      "source": [
+        "decision",
+        "judgment"
+      ],
+      "target": [
+        "evidence",
+        "claim",
+        "judgment",
+        "validation",
+        "assumption",
+        "constraint",
+        "risk"
+      ],
+      "attributes": [
+        "revision"
+      ]
+    },
+    "conflictsWith": {
+      "source": [
+        "decision"
+      ],
+      "target": [
+        "decision"
+      ],
+      "attributes": []
+    },
+    "realizes": {
+      "source": [
+        "solution"
+      ],
+      "target": [
+        "capability"
+      ],
+      "attributes": []
+    }
+  },
+  "cardinality": {
+    "verification": {
+      "verifies": 1,
+      "evidence": "one-or-more"
+    },
+    "validation": {
+      "validates": 1,
+      "evidence": "one-or-more"
+    },
+    "judgment": {
+      "supports": 1,
+      "basis": "one-or-more"
+    }
+  },
+  "proofEvidenceRevision": "Required for verification/validation evidence relations; historical bindings may remain but are not current applicability.",
+  "uniqueness": "One (kind,target,scope) intent per source; attributes do not create a duplicate intent.",
+  "reverseRelations": "Derived only",
+  "targetCompatibility": "requestedTarget is an opaque normalized symbolic target; unequal values in overlapping scopes are incompatible. Equal scopes overlap; global overlaps all scopes. Missing scope means global. All canonical requires intents are evaluated. Detection only; no winner.",
+  "realization": "Nested capability realization record, not another object type. currentRealization requires an Active Decision selectsRealization relation and an Accepted realization in the accepted baseline.",
+  "bindings": {
+    "verification": {
+      "required": [
+        "targetRevision",
+        "realization"
+      ],
+      "optional": []
+    },
+    "validation": {
+      "required": [
+        "outcomeRevision"
+      ],
+      "optional": []
+    },
+    "judgment": {
+      "required": [
+        "outcomeRevision"
+      ],
+      "optional": []
+    }
+  },
+  "proofScope": "Verification scope is exactly realization, criterion/targetRevision and evidence revisions; Validation scope is exactly Outcome revision, Success Criteria/Measurement and evidence revisions. No additional undocumented binding axis. requires.scope remains the canonical target-intent compatibility scope."
+}

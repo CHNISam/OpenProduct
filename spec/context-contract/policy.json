@@ -1,0 +1,24 @@
+{
+  "sourceOwner": "contract.md#s-037",
+  "policyId": "openproduct-v0.1-relevance",
+  "taskSeeds": "Explicit object IDs; unknown seeds rejected; empty seeds require explicit --whole. Task text is not NLP-interpreted.",
+  "edgeKinds": [
+    "addresses",
+    "basis",
+    "conflictsWith",
+    "evidence",
+    "realizes",
+    "requires",
+    "selects",
+    "selectsRealization",
+    "supports",
+    "validates",
+    "verifies"
+  ],
+  "direction": "both",
+  "maxHops": 2,
+  "isolation": "Output uses only the resulting R; no total-state count, productStateFingerprint or unrelated metadata enters context identity.",
+  "serialization": "Canonical JSON of policy identity, sorted seeds, and sorted canonical object projections in R; same normalization as semantic-diff/serialization.json.",
+  "discovery": "Scan frontmatter routing metadata to compute R, then parse canonical bodies only for R. No full-graph narrative read for an ordinary context request.",
+  "current": "Non-authoritative router. Rebuild from explicit focus IDs or active Outcome metadata, containing IDs, titles and paths only; never derived proof/state authority."
+}

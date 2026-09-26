@@ -1,0 +1,35 @@
+{
+  "sourceOwner": "contract.md#s-027",
+  "projectConfig": {
+    "required": [
+      "schemaVersion",
+      "project"
+    ],
+    "schemaVersion": "0.1",
+    "projectRequired": [
+      "canonicalRef"
+    ],
+    "projectOptional": [
+      "name"
+    ],
+    "unknown": "SCHEMA_INVALID"
+  },
+  "checkProofFields": [
+    "checkedCommit",
+    "checkedTree",
+    "productStateFingerprint",
+    "specFingerprint",
+    "checkerVersion",
+    "checkerBuild",
+    "result",
+    "revisionBaseline"
+  ],
+  "storage": ".openproduct/checkproofs/<SHA256(canonicalJSON([productStateFingerprint,specFingerprint,checkerBuild]))>.json",
+  "authority": "Generated mechanical evidence, never normative project input. PASS validity checks exact identities and reruns state/revision predicates on bound inputs; a JSON PASS string alone is insufficient.",
+  "checkedCommit": "Null for an uncommitted candidate; acceptance requires an existing commit whose normative state equals the proven state. Unrelated Git changes do not change semantic identity.",
+  "revisionBaseline": "Accepted baseline commit or null for initial bootstrap; stored provenance for verification, not a substitute for current baseline resolution during candidate evaluation.",
+  "bootstrap": "Only when no accepted proof exists in canonical history. Invalid/unvalidated canonical state after a prior acceptance is CANONICAL_STATE_INVALID, never a reset to bootstrap.",
+  "proofScope": "Historical PASS Verification/Validation is retained but applies only to its exact criterion/outcome revision, realization and evidence revisions. UNKNOWN is neither PASS nor FAIL.",
+  "historicalBaselineReplay": "For explicit canonical revalidation, retain checkedCommit and original revisionBaseline provenance and replay bound state/revision predicates. Historical identity may differ in spec/checker build; it never satisfies current accepted() identity. Replay cannot accept a PASS string without state identity, commit ancestry and revision predicates. FAIL and null-checkedCommit artifacts establish no historical acceptance and do not prevent initial bootstrap.",
+  "baselineAcceptanceProvenance": "A historical revision baseline must belong to the configured canonical first-parent Git history, not merely be a proof-bearing proposal ancestor. Corroborate positions within the retained native local canonical-ref observation window; pruned or absent reflogs do not replace portable canonical history with cache authority. The validated configuration must designate the selected canonicalRef. A candidate proof is never by itself an accepted-state witness."
+}
