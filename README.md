@@ -2,10 +2,21 @@
 
 OpenProduct v0.1 is a structured Markdown and Git Product graph with deterministic checks, revision-scoped proof and task-relevant context for generic coding agents.
 
-Start with [usage](docs/usage.md), [the canonical contract](spec/README.md), or [repository agent instructions](AGENTS.md). [Backlog.md](docs/execution.md) owns engineering execution state; the [frozen implementation obligations](docs/implementation-contract.md) retain product implementation requirements. OpenHarness retains protected integration and evidence gates, with its legacy work-authority compatibility gap tracked in Backlog.
+## Install
+
+Install directly from GitHub:
 
 ```powershell
-python -m openproduct --help
+python -m pip install "git+https://github.com/CHNISam/OpenProduct.git@main"
+openproduct --help
+```
+
+For reproducible automation, replace `main` with a reviewed commit or release tag. The installed package includes the canonical runtime specification; consuming repositories do not need an OpenProduct source checkout or `PYTHONPATH`.
+
+Start with [usage](docs/usage.md), [the canonical contract](spec/README.md), or [repository agent instructions](AGENTS.md). OpenProduct v0.1 runtime acceptance is closed. [Backlog.md](docs/execution.md) owns engineering execution state; the [frozen implementation obligations](docs/implementation-contract.md) retain product implementation requirements. OpenHarness retains protected integration and evidence gates, with its legacy work-authority compatibility gap tracked in Backlog.
+
+```powershell
+openproduct --help
 python -X utf8 scripts/validate_contract_compilation.py --self-test
 ```
 

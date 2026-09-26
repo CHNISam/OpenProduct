@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openproduct"
+version = "0.1.0"
+description = "File-native Product graph, proof and task context for coding agents"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = []
+
+[project.scripts]
+openproduct = "openproduct.__main__:main"
+
+[project.urls]
+Repository = "https://github.com/CHNISam/OpenProduct"
+
+[tool.setuptools.packages.find]
+include = ["openproduct*"]

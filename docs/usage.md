@@ -1,6 +1,18 @@
 # OpenProduct v0.1 usage
 
-Run from this source checkout with Python 3.11+ and Git:
+Requires Python 3.11+ and Git.
+
+For normal cross-repository use, install the CLI directly from GitHub:
+
+```powershell
+python -m pip install "git+https://github.com/CHNISam/OpenProduct.git@main"
+openproduct --help
+```
+
+Pin a reviewed commit or release tag instead of `main` when reproducibility matters. The installed distribution carries the canonical runtime spec, so target repositories do not need the OpenProduct source checkout or `PYTHONPATH`.
+
+A source checkout remains supported for OpenProduct development:
+
 
 ```powershell
 python -m openproduct --repo PATH init --canonical-ref refs/heads/product
@@ -12,7 +24,7 @@ python -m openproduct --repo PATH check --against canonical
 python -m openproduct --repo PATH check --all
 ```
 
-`PYTHONPATH` may point at this checkout when operating in another repository. No database, daemon, MCP, network service or private Product API is required. `check --changed` compares Working Tree with HEAD; `check --all` validates the complete Working Tree. `check --against canonical` evaluates committed proposal HEAD against its real merge base and the accepted canonical tip; commit a draft resolution before using that mode to verify it. CLI output is JSON. Exit 0 is success, 2 reports an invalid Product state/input. Diagnostics contain codes, affected objects, source locators, explanations and next actions.
+`PYTHONPATH` may still point at this checkout during OpenProduct development. No database, daemon, MCP, network service or private Product API is required. `check --changed` compares Working Tree with HEAD; `check --all` validates the complete Working Tree. `check --against canonical` evaluates committed proposal HEAD against its real merge base and the accepted canonical tip; commit a draft resolution before using that mode to verify it. CLI output is JSON. Exit 0 is success, 2 reports an invalid Product state/input. Diagnostics contain codes, affected objects, source locators, explanations and next actions.
 
 The project explicitly configures its canonical Git ref; `main` is not assumed. Objects live at `.openproduct/objects/<type-directory>/<id>.md`. The [canonical definitions](../spec/README.md) specify every type, allowed field, status, section and relation. Frontmatter and config use JSON-form YAML 1.2 with exact `---` frontmatter delimiters. Ordinary YAML shorthand is outside this v0.1 grammar. Duplicate keys and unknown normative fields are rejected.
 
