@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 import subprocess
 import sys
+import tarfile
 import tempfile
 import unittest
 
@@ -11,6 +12,19 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class DistributionTests(unittest.TestCase):
+    @unittest.skipUnless(importlib.util.find_spec("setuptools"), "build backend unavailable in this environment")
+    def test_source_distribution_contains_canonical_spec(self):
+        with tempfile.TemporaryDirectory(prefix="openproduct-sdist-") as temp:
+            result = subprocess.run(
+                [sys.executable, "setup.py", "sdist", "--dist-dir", temp],
+                cwd=ROOT, text=True, capture_output=True, timeout=120,
+            )
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            archives = list(Path(temp).glob("*.tar.gz"))
+            self.assertEqual(len(archives), 1)
+            with tarfile.open(archives[0], "r:gz") as archive:
+                self.assertTrue(any(name.endswith("/spec/object-schema/types.json") for name in archive.getnames()))
+
     @unittest.skipUnless(importlib.util.find_spec("setuptools"), "build backend unavailable in this environment")
     def test_built_package_runs_outside_source_checkout_with_spec(self):
         with tempfile.TemporaryDirectory(prefix="openproduct-dist-") as temp:
