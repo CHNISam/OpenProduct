@@ -1,0 +1,397 @@
+{
+  "role": "Non-normative ownership/routing register. Repeated source formulations are references, not additional effective rule owners. Golden cases own their distinct conformance scenarios. Context-specific added requirements stay in their own units.",
+  "rules": [
+    {
+      "ruleIdentity": "repository-continuity",
+      "effectiveOwner": {
+        "path": "docs/implementation-contract.md",
+        "anchor": "s-001"
+      },
+      "primarySourceSection": "S-001",
+      "referenceSourceSections": [
+        "S-041",
+        "S-042"
+      ]
+    },
+    {
+      "ruleIdentity": "architecture-freeze",
+      "effectiveOwner": {
+        "path": "docs/implementation-contract.md",
+        "anchor": "s-002"
+      },
+      "primarySourceSection": "S-002",
+      "referenceSourceSections": [
+        "S-003",
+        "S-042",
+        "S-043",
+        "S-044"
+      ]
+    },
+    {
+      "ruleIdentity": "build-the-delta",
+      "effectiveOwner": {
+        "path": "docs/implementation-contract.md",
+        "anchor": "s-041"
+      },
+      "primarySourceSection": "S-041",
+      "referenceSourceSections": [
+        "S-002"
+      ]
+    },
+    {
+      "ruleIdentity": "product-not-execution",
+      "effectiveOwner": {
+        "path": "spec/object-schema/contract.md",
+        "anchor": "s-004"
+      },
+      "primarySourceSection": "S-004",
+      "referenceSourceSections": [
+        "S-033",
+        "S-042"
+      ]
+    },
+    {
+      "ruleIdentity": "minimal-runtime-dependencies",
+      "effectiveOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-005"
+      },
+      "primarySourceSection": "S-005",
+      "referenceSourceSections": [
+        "S-042",
+        "S-039"
+      ]
+    },
+    {
+      "ruleIdentity": "canonical-representation-not-accepted",
+      "effectiveOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-008"
+      },
+      "primarySourceSection": "S-008",
+      "referenceSourceSections": [
+        "S-006",
+        "S-007",
+        "S-009",
+        "S-010"
+      ]
+    },
+    {
+      "ruleIdentity": "canonical-reference-boundary",
+      "effectiveOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-007"
+      },
+      "primarySourceSection": "S-007",
+      "referenceSourceSections": [
+        "S-008",
+        "S-010",
+        "S-030"
+      ]
+    },
+    {
+      "ruleIdentity": "invalid-canonical-state",
+      "effectiveOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-008"
+      },
+      "primarySourceSection": "S-008",
+      "referenceSourceSections": [
+        "S-019",
+        "S-030",
+        "S-040",
+        "S-039"
+      ]
+    },
+    {
+      "ruleIdentity": "one-canonical-serialization",
+      "effectiveOwner": {
+        "path": "spec/canonical-markdown-grammar/contract.md",
+        "anchor": "s-013"
+      },
+      "primarySourceSection": "S-013",
+      "referenceSourceSections": [
+        "S-011"
+      ]
+    },
+    {
+      "ruleIdentity": "non-normative-prose-boundary",
+      "effectiveOwner": {
+        "path": "spec/canonical-markdown-grammar/contract.md",
+        "anchor": "s-014"
+      },
+      "primarySourceSection": "S-014",
+      "referenceSourceSections": [
+        "S-011",
+        "S-017",
+        "S-025"
+      ]
+    },
+    {
+      "ruleIdentity": "source-owned-relation-authority",
+      "effectiveOwner": {
+        "path": "spec/relation-schema/contract.md",
+        "anchor": "s-015"
+      },
+      "primarySourceSection": "S-015",
+      "referenceSourceSections": [
+        "S-017",
+        "S-021",
+        "S-033",
+        "S-039"
+      ]
+    },
+    {
+      "ruleIdentity": "current-router-not-authority",
+      "effectiveOwner": {
+        "path": "spec/context-contract/contract.md",
+        "anchor": "s-016"
+      },
+      "primarySourceSection": "S-016",
+      "referenceSourceSections": [
+        "S-025",
+        "S-026",
+        "S-036",
+        "S-039"
+      ]
+    },
+    {
+      "ruleIdentity": "semantic-fingerprint-meaning",
+      "effectiveOwner": {
+        "path": "spec/semantic-diff/contract.md",
+        "anchor": "s-017"
+      },
+      "primarySourceSection": "S-017",
+      "referenceSourceSections": [
+        "S-018",
+        "S-019",
+        "S-021",
+        "S-022",
+        "S-029",
+        "S-039"
+      ]
+    },
+    {
+      "ruleIdentity": "revision-change-equivalence",
+      "effectiveOwner": {
+        "path": "spec/revision-rules/contract.md",
+        "anchor": "s-018"
+      },
+      "primarySourceSection": "S-018",
+      "referenceSourceSections": [
+        "S-019",
+        "S-021",
+        "S-023",
+        "S-029",
+        "S-039"
+      ]
+    },
+    {
+      "ruleIdentity": "accepted-revision-baseline",
+      "effectiveOwner": {
+        "path": "spec/revision-rules/contract.md",
+        "anchor": "s-019"
+      },
+      "primarySourceSection": "S-019",
+      "referenceSourceSections": [
+        "S-018",
+        "S-030",
+        "S-039"
+      ]
+    },
+    {
+      "ruleIdentity": "bootstrap-revision-one",
+      "effectiveOwner": {
+        "path": "spec/revision-rules/contract.md",
+        "anchor": "s-020"
+      },
+      "primarySourceSection": "S-020",
+      "referenceSourceSections": [
+        "S-018",
+        "S-019",
+        "S-039"
+      ]
+    },
+    {
+      "ruleIdentity": "exact-product-state-identity",
+      "effectiveOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-022"
+      },
+      "primarySourceSection": "S-022",
+      "referenceSourceSections": [
+        "S-023",
+        "S-024",
+        "S-026",
+        "S-029",
+        "S-039"
+      ]
+    },
+    {
+      "ruleIdentity": "product-state-exclusions",
+      "effectiveOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-025"
+      },
+      "primarySourceSection": "S-025",
+      "referenceSourceSections": [
+        "S-026",
+        "S-039"
+      ]
+    },
+    {
+      "ruleIdentity": "checked-tree-input-scope",
+      "effectiveOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-026"
+      },
+      "primarySourceSection": "S-026",
+      "referenceSourceSections": [
+        "S-027"
+      ]
+    },
+    {
+      "ruleIdentity": "exact-pass-binding",
+      "effectiveOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-027"
+      },
+      "primarySourceSection": "S-027",
+      "referenceSourceSections": [
+        "S-023",
+        "S-026",
+        "S-029",
+        "S-031",
+        "S-039"
+      ]
+    },
+    {
+      "ruleIdentity": "normative-spec-identity",
+      "effectiveOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-028"
+      },
+      "primarySourceSection": "S-028",
+      "referenceSourceSections": [
+        "S-027",
+        "S-031",
+        "S-039"
+      ]
+    },
+    {
+      "ruleIdentity": "git-not-semantic-diff",
+      "effectiveOwner": {
+        "path": "spec/semantic-diff/contract.md",
+        "anchor": "s-029"
+      },
+      "primarySourceSection": "S-029",
+      "referenceSourceSections": [
+        "S-039"
+      ]
+    },
+    {
+      "ruleIdentity": "semantic-impact-closure",
+      "effectiveOwner": {
+        "path": "spec/semantic-diff/contract.md",
+        "anchor": "s-032"
+      },
+      "primarySourceSection": "S-032",
+      "referenceSourceSections": [
+        "S-030"
+      ]
+    },
+    {
+      "ruleIdentity": "capability-target-conflict",
+      "effectiveOwner": {
+        "path": "spec/relation-schema/contract.md",
+        "anchor": "s-034"
+      },
+      "primarySourceSection": "S-034",
+      "referenceSourceSections": [
+        "S-033",
+        "S-039",
+        "S-040"
+      ]
+    },
+    {
+      "ruleIdentity": "revision-scoped-product-proof",
+      "effectiveOwner": {
+        "path": "spec/object-schema/contract.md",
+        "anchor": "s-035"
+      },
+      "primarySourceSection": "S-035",
+      "referenceSourceSections": [
+        "S-033",
+        "S-039",
+        "S-040"
+      ]
+    },
+    {
+      "ruleIdentity": "task-relevant-context",
+      "effectiveOwner": {
+        "path": "spec/context-contract/contract.md",
+        "anchor": "s-036"
+      },
+      "primarySourceSection": "S-036",
+      "referenceSourceSections": [
+        "S-002",
+        "S-037",
+        "S-038"
+      ]
+    },
+    {
+      "ruleIdentity": "context-isolation",
+      "effectiveOwner": {
+        "path": "spec/context-contract/contract.md",
+        "anchor": "s-038"
+      },
+      "primarySourceSection": "S-038",
+      "referenceSourceSections": [
+        "S-039",
+        "S-043"
+      ]
+    },
+    {
+      "ruleIdentity": "golden-conformance-gates",
+      "effectiveOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039"
+      },
+      "primarySourceSection": "S-039",
+      "referenceSourceSections": [
+        "S-041",
+        "S-043"
+      ]
+    },
+    {
+      "ruleIdentity": "error-record-shape",
+      "effectiveOwner": {
+        "path": "spec/errors/contract.md",
+        "anchor": "s-040"
+      },
+      "primarySourceSection": "S-040",
+      "referenceSourceSections": []
+    },
+    {
+      "ruleIdentity": "implementation-execution-order",
+      "effectiveOwner": {
+        "path": "docs/implementation-contract.md",
+        "anchor": "s-041"
+      },
+      "primarySourceSection": "S-041",
+      "referenceSourceSections": []
+    },
+    {
+      "ruleIdentity": "implementation-acceptance",
+      "effectiveOwner": {
+        "path": "docs/implementation-contract.md",
+        "anchor": "s-043"
+      },
+      "primarySourceSection": "S-043",
+      "referenceSourceSections": [
+        "S-003",
+        "S-044"
+      ]
+    }
+  ]
+}

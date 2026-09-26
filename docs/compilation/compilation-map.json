@@ -1,0 +1,3205 @@
+{
+  "formatVersion": 1,
+  "authority": "Traceability only; not normative authority.",
+  "unitizationReview": "Semantic review: every heading region read; units use bounded contract sections, command subcontracts, and named golden cases. Exact source clauses retained; rationale/examples keep source roles. Hashes prove text identity, not natural-language completeness.",
+  "source": "docs/provenance/openproduct-v0.1-frozen.md",
+  "sections": [
+    {
+      "id": "S-001",
+      "heading": "/goal — Implement OpenProduct v0.1",
+      "sourceRange": [
+        1,
+        28
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-001"
+      ],
+      "canonicalPath": "docs/implementation-contract.md",
+      "payloadSha256": "d1ff6614cc6cacf01e230fba87b487aa64bb76995ec16bb18e0e7df3d4b79829"
+    },
+    {
+      "id": "S-002",
+      "heading": "Bottom Line",
+      "sourceRange": [
+        29,
+        63
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-002"
+      ],
+      "canonicalPath": "docs/implementation-contract.md",
+      "payloadSha256": "b2697102b3add79c00613a5a8e1dd28248cef8a3b2a3a983b2dc3f6e98b91d4e"
+    },
+    {
+      "id": "S-003",
+      "heading": "Objective",
+      "sourceRange": [
+        64,
+        86
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-003"
+      ],
+      "canonicalPath": "docs/implementation-contract.md",
+      "payloadSha256": "04398cffa1877549e10ff1dc0613c50596caf5688215b0e16664d7f54e91b350"
+    },
+    {
+      "id": "S-004",
+      "heading": "Product Boundary",
+      "sourceRange": [
+        87,
+        136
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-004"
+      ],
+      "canonicalPath": "spec/object-schema/contract.md",
+      "payloadSha256": "b0ec2196c33dd56e3293a0266ad816c9ef8518482dd1d99d9cb5db782569e6d7"
+    },
+    {
+      "id": "S-005",
+      "heading": "Runtime",
+      "sourceRange": [
+        137,
+        181
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-005"
+      ],
+      "canonicalPath": "spec/authority-contract/contract.md",
+      "payloadSha256": "e9fefe31ec6712c8c991a5187be74a9244df7df6d5615099ec3fde897326cc30"
+    },
+    {
+      "id": "S-006",
+      "heading": "Canonical Representation",
+      "sourceRange": [
+        182,
+        226
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-006"
+      ],
+      "canonicalPath": "spec/object-schema/contract.md",
+      "payloadSha256": "be2dc4ef2fea11e66d57f11f7a898568d9b6e5122cfe4e7ca5f6203b0c6e7df9"
+    },
+    {
+      "id": "S-007",
+      "heading": "Contract A — Product State Authority",
+      "sourceRange": [
+        227,
+        259
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-007"
+      ],
+      "canonicalPath": "spec/authority-contract/contract.md",
+      "payloadSha256": "1703e12d7d9fb810ed5fc6ffe5a59e1ea5f50b23f307bb544dc6b40e6e42744c"
+    },
+    {
+      "id": "S-007-H-229",
+      "heading": "canonicalRef",
+      "sourceRange": [
+        229,
+        259
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-007"
+      ],
+      "parent": "S-007"
+    },
+    {
+      "id": "S-008",
+      "heading": "Accepted Product State",
+      "sourceRange": [
+        260,
+        310
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-008"
+      ],
+      "canonicalPath": "spec/authority-contract/contract.md",
+      "payloadSha256": "d01b3d80cb9c0f35796f46f9c3d79a47d8d77225a35324dfa5aed7dd439170aa"
+    },
+    {
+      "id": "S-009",
+      "heading": "State Classes",
+      "sourceRange": [
+        311,
+        348
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-009"
+      ],
+      "canonicalPath": "spec/authority-contract/contract.md",
+      "payloadSha256": "af9262052b634653530f7e41352022a468702150427674ccb050eb2b004eef9e"
+    },
+    {
+      "id": "S-010",
+      "heading": "Acceptance Flow",
+      "sourceRange": [
+        349,
+        381
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-010"
+      ],
+      "canonicalPath": "spec/authority-contract/contract.md",
+      "payloadSha256": "5009bd6891c641a0f14ecacbb7ff2ef96c4af6c2a3768ae0eb92e9970b377369"
+    },
+    {
+      "id": "S-011",
+      "heading": "Contract B — Normative Product Representation",
+      "sourceRange": [
+        382,
+        416
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-011"
+      ],
+      "canonicalPath": "spec/canonical-markdown-grammar/contract.md",
+      "payloadSha256": "5510306297758fb02b0f4b269772d9b015c23afed787b45d54f2dc877d68621b"
+    },
+    {
+      "id": "S-012",
+      "heading": "Frontmatter Contract",
+      "sourceRange": [
+        417,
+        463
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-012"
+      ],
+      "canonicalPath": "spec/frontmatter-schema/contract.md",
+      "payloadSha256": "6ed99d150654eb247a15012939eb25a8f9bf48dc2ea71f74d602b2d3fa07ec3d"
+    },
+    {
+      "id": "S-013",
+      "heading": "Canonical Sections",
+      "sourceRange": [
+        464,
+        484
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-013"
+      ],
+      "canonicalPath": "spec/canonical-markdown-grammar/contract.md",
+      "payloadSha256": "a47c934fc9982ec366be21e32a1e2d867202fb0e4c5c480da237645009a23501"
+    },
+    {
+      "id": "S-014",
+      "heading": "Free-form Markdown",
+      "sourceRange": [
+        485,
+        509
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-014"
+      ],
+      "canonicalPath": "spec/canonical-markdown-grammar/contract.md",
+      "payloadSha256": "8ccb1b32b573dc04fbd86171301f6e8c025008437722fc1e9d6d06867164c29c"
+    },
+    {
+      "id": "S-015",
+      "heading": "Relation Authority",
+      "sourceRange": [
+        510,
+        542
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-015"
+      ],
+      "canonicalPath": "spec/relation-schema/contract.md",
+      "payloadSha256": "d87e060989a8f7ce484352d4a33287ed5a044da908f41f50772e78a49367f1b7"
+    },
+    {
+      "id": "S-016",
+      "heading": "current.md",
+      "sourceRange": [
+        543,
+        590
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-016"
+      ],
+      "canonicalPath": "spec/context-contract/contract.md",
+      "payloadSha256": "00cbc68ab0b5eaa54d383a0ec71553ff795e4bdace808b3b4d117cb78aa93b60"
+    },
+    {
+      "id": "S-017",
+      "heading": "SemanticFingerprint(object)",
+      "sourceRange": [
+        591,
+        635
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-017"
+      ],
+      "canonicalPath": "spec/semantic-diff/contract.md",
+      "payloadSha256": "9b9ee7d3ae8e634ee236b76f010b747d2aabed36d7e9a25e66aa7b604d39c78d"
+    },
+    {
+      "id": "S-018",
+      "heading": "Revision Contract",
+      "sourceRange": [
+        636,
+        694
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-018"
+      ],
+      "canonicalPath": "spec/revision-rules/contract.md",
+      "payloadSha256": "87e8126c04408d41de93718d8f6a888660d17c3a3ef5aa32deb4a0a205e7c0a3"
+    },
+    {
+      "id": "S-019",
+      "heading": "RevisionBaseline",
+      "sourceRange": [
+        695,
+        747
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-019"
+      ],
+      "canonicalPath": "spec/revision-rules/contract.md",
+      "payloadSha256": "ed2e995f7f4b1fab1341f74d3a7cf428eff79fc96c3df5cb5e3292435ad530c4"
+    },
+    {
+      "id": "S-020",
+      "heading": "Bootstrap",
+      "sourceRange": [
+        748,
+        773
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-020"
+      ],
+      "canonicalPath": "spec/revision-rules/contract.md",
+      "payloadSha256": "65d2cb041a62b060a82862e703afe58e9d510a913ce997909a694dc0784f306c"
+    },
+    {
+      "id": "S-021",
+      "heading": "Relation Change and Revision",
+      "sourceRange": [
+        774,
+        798
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-021"
+      ],
+      "canonicalPath": "spec/revision-rules/contract.md",
+      "payloadSha256": "e4cf5072d768213fa2149e2ce2ee5e4f34bde13638320f7da53e32812b9486b2"
+    },
+    {
+      "id": "S-022",
+      "heading": "ProductStateFingerprint — Final Definition",
+      "sourceRange": [
+        799,
+        848
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-022"
+      ],
+      "canonicalPath": "spec/authority-contract/contract.md",
+      "payloadSha256": "d52807e4bf8cf726a9ea3dd8f79868c02e810509673ef001fcc17cd3ffe6dd03"
+    },
+    {
+      "id": "S-023",
+      "heading": "Why revision MUST be included",
+      "sourceRange": [
+        849,
+        890
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-023"
+      ],
+      "canonicalPath": "spec/authority-contract/contract.md",
+      "payloadSha256": "3607abc5f26674776beec2009c8898bff764746055118302fa7e122a79781182"
+    },
+    {
+      "id": "S-024",
+      "heading": "ProductStateFingerprint Included Scope",
+      "sourceRange": [
+        891,
+        933
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-024"
+      ],
+      "canonicalPath": "spec/authority-contract/contract.md",
+      "payloadSha256": "1d3f691441d20825bc5f371df00dce072874452888106c2fc99abcdfdc1b139b"
+    },
+    {
+      "id": "S-025",
+      "heading": "ProductStateFingerprint Excluded Scope",
+      "sourceRange": [
+        934,
+        968
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-025"
+      ],
+      "canonicalPath": "spec/authority-contract/contract.md",
+      "payloadSha256": "ac4cf794b0bae94dfe449ffd2c125d8c776cc6221ae78b9dbc96a58bad7380d3"
+    },
+    {
+      "id": "S-026",
+      "heading": "checkedTree Scope",
+      "sourceRange": [
+        969,
+        1015
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-026"
+      ],
+      "canonicalPath": "spec/authority-contract/contract.md",
+      "payloadSha256": "89ac482fc01e7e4569d295521a8b93574211b6c55e71f46db7cdc9e267b52e95"
+    },
+    {
+      "id": "S-027",
+      "heading": "CheckProof",
+      "sourceRange": [
+        1016,
+        1050
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-027"
+      ],
+      "canonicalPath": "spec/authority-contract/contract.md",
+      "payloadSha256": "2af12d454dea504bff87a91ebfe209a070016b8fc6b6229c335b57de9a0942d5"
+    },
+    {
+      "id": "S-028",
+      "heading": "specFingerprint",
+      "sourceRange": [
+        1051,
+        1072
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-028"
+      ],
+      "canonicalPath": "spec/authority-contract/contract.md",
+      "payloadSha256": "65d9ae00968d96910c5794aaa163d3ead92d63010b831aea17acf932735ec7f3"
+    },
+    {
+      "id": "S-029",
+      "heading": "Git Diff ≠ Semantic Diff",
+      "sourceRange": [
+        1073,
+        1118
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-029"
+      ],
+      "canonicalPath": "spec/semantic-diff/contract.md",
+      "payloadSha256": "f98411b2c9e693fab8418b1353416960edec042e3befe849ba879c1efbb161df"
+    },
+    {
+      "id": "S-030",
+      "heading": "Check Command Contract",
+      "sourceRange": [
+        1119,
+        1225
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-030-1",
+        "U-030-2",
+        "U-030-3"
+      ],
+      "canonicalPath": "spec/semantic-diff/contract.md",
+      "payloadSha256": "8e6c0bb3e216823b63320aa8cff6b5fda08cf3a70cfd0c75422521d7ea40b389"
+    },
+    {
+      "id": "S-030-H-1121",
+      "heading": "`openproduct check --changed`",
+      "sourceRange": [
+        1121,
+        1162
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-030-1"
+      ],
+      "parent": "S-030"
+    },
+    {
+      "id": "S-030-H-1163",
+      "heading": "`openproduct check --against canonical`",
+      "sourceRange": [
+        1163,
+        1205
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-030-2"
+      ],
+      "parent": "S-030"
+    },
+    {
+      "id": "S-030-H-1206",
+      "heading": "`openproduct check --all`",
+      "sourceRange": [
+        1206,
+        1225
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-030-3"
+      ],
+      "parent": "S-030"
+    },
+    {
+      "id": "S-031",
+      "heading": "Exact-State Binding",
+      "sourceRange": [
+        1226,
+        1249
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-031"
+      ],
+      "canonicalPath": "spec/authority-contract/contract.md",
+      "payloadSha256": "0a6614892f5f0e82f1a3ebc8c8e7fdeb5f24d4845ec0fcb83c79247676e50406"
+    },
+    {
+      "id": "S-032",
+      "heading": "Semantic Impact Closure",
+      "sourceRange": [
+        1250,
+        1309
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-032"
+      ],
+      "canonicalPath": "spec/semantic-diff/contract.md",
+      "payloadSha256": "e2526182013613bfb5e193223b702b81d2fe1a112b04594ca41955d77141e7db"
+    },
+    {
+      "id": "S-033",
+      "heading": "Core Semantic Invariants",
+      "sourceRange": [
+        1310,
+        1361
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-033"
+      ],
+      "canonicalPath": "spec/object-schema/contract.md",
+      "payloadSha256": "8e2613e78f3316656915e3a4ae4cc92ca8a45511b391002ff59313a664be66d8"
+    },
+    {
+      "id": "S-034",
+      "heading": "Capability Target Conflict",
+      "sourceRange": [
+        1362,
+        1422
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-034"
+      ],
+      "canonicalPath": "spec/relation-schema/contract.md",
+      "payloadSha256": "8b8b09481b0ea705931c9b112ff68907308db8c6754d560b357e3e06e7b195ff"
+    },
+    {
+      "id": "S-035",
+      "heading": "Proof Scope",
+      "sourceRange": [
+        1423,
+        1456
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-035"
+      ],
+      "canonicalPath": "spec/object-schema/contract.md",
+      "payloadSha256": "5fb72c22f56576899b90bdc70d1d2d3c45e9dc6b074a35416570e1d699b5ee6b"
+    },
+    {
+      "id": "S-036",
+      "heading": "Low-Token Contract",
+      "sourceRange": [
+        1457,
+        1484
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-036"
+      ],
+      "canonicalPath": "spec/context-contract/contract.md",
+      "payloadSha256": "40aed382640d411fcdcd05180cf07dab55f593eab4addde8a090514824252931"
+    },
+    {
+      "id": "S-037",
+      "heading": "Context Compiler",
+      "sourceRange": [
+        1485,
+        1507
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-037"
+      ],
+      "canonicalPath": "spec/context-contract/contract.md",
+      "payloadSha256": "a451169c5ae435fabe8f2faf2a3af647a46b9e210be14eae1af6e40463b55eeb"
+    },
+    {
+      "id": "S-038",
+      "heading": "Context Isolation",
+      "sourceRange": [
+        1508,
+        1553
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-038"
+      ],
+      "canonicalPath": "spec/context-contract/contract.md",
+      "payloadSha256": "cd3d05d2af34d57b6796c924ebe7fd714b1d7106dba1eb6919fde4ece9e665f8"
+    },
+    {
+      "id": "S-039",
+      "heading": "Golden Tests",
+      "sourceRange": [
+        1554,
+        1698
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-039",
+        "G-01",
+        "G-02",
+        "G-03",
+        "G-04",
+        "G-05",
+        "G-06",
+        "G-07",
+        "G-08",
+        "G-09",
+        "G-10",
+        "G-11",
+        "G-12",
+        "G-13",
+        "G-14",
+        "G-15",
+        "G-16",
+        "G-17",
+        "G-18",
+        "G-19",
+        "G-20",
+        "G-21",
+        "G-22",
+        "G-23"
+      ],
+      "canonicalPath": "spec/authority-contract/golden-tests.md",
+      "payloadSha256": "786082ff1cf6dde8a643f34057c18784431c4ecd1a95d96d09cde31f49c2bcb6"
+    },
+    {
+      "id": "S-039-G-01",
+      "heading": "G-01",
+      "sourceRange": [
+        1559,
+        1563
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-01"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-02",
+      "heading": "G-02",
+      "sourceRange": [
+        1564,
+        1568
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-02"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-03",
+      "heading": "G-03",
+      "sourceRange": [
+        1569,
+        1573
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-03"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-04",
+      "heading": "G-04",
+      "sourceRange": [
+        1574,
+        1580
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-04"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-05",
+      "heading": "G-05",
+      "sourceRange": [
+        1581,
+        1586
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-05"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-06",
+      "heading": "G-06",
+      "sourceRange": [
+        1587,
+        1591
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-06"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-07",
+      "heading": "G-07",
+      "sourceRange": [
+        1592,
+        1596
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-07"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-08",
+      "heading": "G-08",
+      "sourceRange": [
+        1597,
+        1601
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-08"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-09",
+      "heading": "G-09",
+      "sourceRange": [
+        1602,
+        1606
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-09"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-10",
+      "heading": "G-10",
+      "sourceRange": [
+        1607,
+        1611
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-10"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-11",
+      "heading": "G-11",
+      "sourceRange": [
+        1612,
+        1616
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-11"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-12",
+      "heading": "G-12",
+      "sourceRange": [
+        1617,
+        1622
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-12"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-13",
+      "heading": "G-13",
+      "sourceRange": [
+        1623,
+        1627
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-13"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-14",
+      "heading": "G-14",
+      "sourceRange": [
+        1628,
+        1632
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-14"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-15",
+      "heading": "G-15",
+      "sourceRange": [
+        1633,
+        1637
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-15"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-16",
+      "heading": "G-16",
+      "sourceRange": [
+        1638,
+        1643
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-16"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-17",
+      "heading": "G-17",
+      "sourceRange": [
+        1644,
+        1650
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-17"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-18",
+      "heading": "G-18",
+      "sourceRange": [
+        1651,
+        1657
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-18"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-19",
+      "heading": "G-19",
+      "sourceRange": [
+        1658,
+        1662
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-19"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-20",
+      "heading": "G-20",
+      "sourceRange": [
+        1663,
+        1667
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-20"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-21",
+      "heading": "G-21",
+      "sourceRange": [
+        1668,
+        1672
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-21"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-22",
+      "heading": "G-22",
+      "sourceRange": [
+        1673,
+        1677
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-22"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-039-G-23",
+      "heading": "G-23",
+      "sourceRange": [
+        1678,
+        1684
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "G-23"
+      ],
+      "parent": "S-039"
+    },
+    {
+      "id": "S-040",
+      "heading": "Error Model",
+      "sourceRange": [
+        1699,
+        1742
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-040"
+      ],
+      "canonicalPath": "spec/errors/contract.md",
+      "payloadSha256": "b0da605c878231d8329a3450fe93a9a18e6cb6839aad0793f631b62b2c414cd2"
+    },
+    {
+      "id": "S-041",
+      "heading": "Execution Order",
+      "sourceRange": [
+        1743,
+        1826
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-041"
+      ],
+      "canonicalPath": "docs/implementation-contract.md",
+      "payloadSha256": "5225bbfedc2c63f833e2ae90456498adf463d4b744992fb4f0b18693d652d9c4"
+    },
+    {
+      "id": "S-042",
+      "heading": "Constraints",
+      "sourceRange": [
+        1827,
+        1876
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-042"
+      ],
+      "canonicalPath": "docs/implementation-contract.md",
+      "payloadSha256": "47761da5e97dc58d20068a0da8dcdcfbb4148c1ccc5c30395846cf14abfdd19c"
+    },
+    {
+      "id": "S-043",
+      "heading": "Acceptance",
+      "sourceRange": [
+        1877,
+        1933
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-043"
+      ],
+      "canonicalPath": "docs/implementation-contract.md",
+      "payloadSha256": "320d5b969df1cb1506e4564b1e1dd629588a51436486b2e7a68d474f1297780f"
+    },
+    {
+      "id": "S-044",
+      "heading": "Required Final Recap",
+      "sourceRange": [
+        1934,
+        1964
+      ],
+      "status": "SECTION_REVIEWED",
+      "sourceUnits": [
+        "U-044"
+      ],
+      "canonicalPath": "docs/implementation-contract.md",
+      "payloadSha256": "1996c163fc45ba331fa71f18c22ef0ca2157a4f52f5821df27dcccf10ef893b7"
+    }
+  ],
+  "units": [
+    {
+      "id": "U-001",
+      "sourceSection": "S-001",
+      "stableIdentifier": "/goal — Implement OpenProduct v0.1",
+      "sourceRanges": [
+        [
+          1,
+          28
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "docs/implementation-contract.md",
+        "anchor": "s-001",
+        "sourceUnit": "U-001",
+        "lineRanges": [
+          [
+            11,
+            38
+          ]
+        ]
+      },
+      "enforcementStatus": "NOT_APPLICABLE",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-002",
+      "sourceSection": "S-002",
+      "stableIdentifier": "Bottom Line",
+      "sourceRanges": [
+        [
+          29,
+          63
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "docs/implementation-contract.md",
+        "anchor": "s-002",
+        "sourceUnit": "U-002",
+        "lineRanges": [
+          [
+            44,
+            78
+          ]
+        ]
+      },
+      "enforcementStatus": "NOT_APPLICABLE",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-003",
+      "sourceSection": "S-003",
+      "stableIdentifier": "Objective",
+      "sourceRanges": [
+        [
+          64,
+          86
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "docs/implementation-contract.md",
+        "anchor": "s-003",
+        "sourceUnit": "U-003",
+        "lineRanges": [
+          [
+            84,
+            106
+          ]
+        ]
+      },
+      "enforcementStatus": "NOT_APPLICABLE",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-004",
+      "sourceSection": "S-004",
+      "stableIdentifier": "Product Boundary",
+      "sourceRanges": [
+        [
+          87,
+          136
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/object-schema/contract.md",
+        "anchor": "s-004",
+        "sourceUnit": "U-004",
+        "lineRanges": [
+          [
+            10,
+            59
+          ]
+        ]
+      },
+      "enforcementStatus": "NOT_APPLICABLE",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-005",
+      "sourceSection": "S-005",
+      "stableIdentifier": "Runtime",
+      "sourceRanges": [
+        [
+          137,
+          181
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-005",
+        "sourceUnit": "U-005",
+        "lineRanges": [
+          [
+            10,
+            54
+          ]
+        ]
+      },
+      "enforcementStatus": "NOT_APPLICABLE",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-006",
+      "sourceSection": "S-006",
+      "stableIdentifier": "Canonical Representation",
+      "sourceRanges": [
+        [
+          182,
+          226
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/object-schema/contract.md",
+        "anchor": "s-006",
+        "sourceUnit": "U-006",
+        "lineRanges": [
+          [
+            65,
+            109
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-007",
+      "sourceSection": "S-007",
+      "stableIdentifier": "Contract A — Product State Authority",
+      "sourceRanges": [
+        [
+          227,
+          259
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-007",
+        "sourceUnit": "U-007",
+        "lineRanges": [
+          [
+            60,
+            92
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-008",
+      "sourceSection": "S-008",
+      "stableIdentifier": "Accepted Product State",
+      "sourceRanges": [
+        [
+          260,
+          310
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-008",
+        "sourceUnit": "U-008",
+        "lineRanges": [
+          [
+            98,
+            148
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-009",
+      "sourceSection": "S-009",
+      "stableIdentifier": "State Classes",
+      "sourceRanges": [
+        [
+          311,
+          348
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-009",
+        "sourceUnit": "U-009",
+        "lineRanges": [
+          [
+            154,
+            191
+          ]
+        ]
+      },
+      "enforcementStatus": "NOT_APPLICABLE",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-010",
+      "sourceSection": "S-010",
+      "stableIdentifier": "Acceptance Flow",
+      "sourceRanges": [
+        [
+          349,
+          381
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-010",
+        "sourceUnit": "U-010",
+        "lineRanges": [
+          [
+            197,
+            229
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-011",
+      "sourceSection": "S-011",
+      "stableIdentifier": "Contract B — Normative Product Representation",
+      "sourceRanges": [
+        [
+          382,
+          416
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/canonical-markdown-grammar/contract.md",
+        "anchor": "s-011",
+        "sourceUnit": "U-011",
+        "lineRanges": [
+          [
+            10,
+            44
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-012",
+      "sourceSection": "S-012",
+      "stableIdentifier": "Frontmatter Contract",
+      "sourceRanges": [
+        [
+          417,
+          463
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/frontmatter-schema/contract.md",
+        "anchor": "s-012",
+        "sourceUnit": "U-012",
+        "lineRanges": [
+          [
+            10,
+            56
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-013",
+      "sourceSection": "S-013",
+      "stableIdentifier": "Canonical Sections",
+      "sourceRanges": [
+        [
+          464,
+          484
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/canonical-markdown-grammar/contract.md",
+        "anchor": "s-013",
+        "sourceUnit": "U-013",
+        "lineRanges": [
+          [
+            50,
+            70
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-014",
+      "sourceSection": "S-014",
+      "stableIdentifier": "Free-form Markdown",
+      "sourceRanges": [
+        [
+          485,
+          509
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/canonical-markdown-grammar/contract.md",
+        "anchor": "s-014",
+        "sourceUnit": "U-014",
+        "lineRanges": [
+          [
+            76,
+            100
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-015",
+      "sourceSection": "S-015",
+      "stableIdentifier": "Relation Authority",
+      "sourceRanges": [
+        [
+          510,
+          542
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/relation-schema/contract.md",
+        "anchor": "s-015",
+        "sourceUnit": "U-015",
+        "lineRanges": [
+          [
+            10,
+            42
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-016",
+      "sourceSection": "S-016",
+      "stableIdentifier": "current.md",
+      "sourceRanges": [
+        [
+          543,
+          590
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/context-contract/contract.md",
+        "anchor": "s-016",
+        "sourceUnit": "U-016",
+        "lineRanges": [
+          [
+            10,
+            57
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-017",
+      "sourceSection": "S-017",
+      "stableIdentifier": "SemanticFingerprint(object)",
+      "sourceRanges": [
+        [
+          591,
+          635
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/semantic-diff/contract.md",
+        "anchor": "s-017",
+        "sourceUnit": "U-017",
+        "lineRanges": [
+          [
+            10,
+            54
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-018",
+      "sourceSection": "S-018",
+      "stableIdentifier": "Revision Contract",
+      "sourceRanges": [
+        [
+          636,
+          694
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/revision-rules/contract.md",
+        "anchor": "s-018",
+        "sourceUnit": "U-018",
+        "lineRanges": [
+          [
+            10,
+            68
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-019",
+      "sourceSection": "S-019",
+      "stableIdentifier": "RevisionBaseline",
+      "sourceRanges": [
+        [
+          695,
+          747
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/revision-rules/contract.md",
+        "anchor": "s-019",
+        "sourceUnit": "U-019",
+        "lineRanges": [
+          [
+            74,
+            126
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-020",
+      "sourceSection": "S-020",
+      "stableIdentifier": "Bootstrap",
+      "sourceRanges": [
+        [
+          748,
+          773
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/revision-rules/contract.md",
+        "anchor": "s-020",
+        "sourceUnit": "U-020",
+        "lineRanges": [
+          [
+            132,
+            157
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-021",
+      "sourceSection": "S-021",
+      "stableIdentifier": "Relation Change and Revision",
+      "sourceRanges": [
+        [
+          774,
+          798
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/revision-rules/contract.md",
+        "anchor": "s-021",
+        "sourceUnit": "U-021",
+        "lineRanges": [
+          [
+            163,
+            187
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-022",
+      "sourceSection": "S-022",
+      "stableIdentifier": "ProductStateFingerprint — Final Definition",
+      "sourceRanges": [
+        [
+          799,
+          848
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-022",
+        "sourceUnit": "U-022",
+        "lineRanges": [
+          [
+            235,
+            284
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-023",
+      "sourceSection": "S-023",
+      "stableIdentifier": "Why revision MUST be included",
+      "sourceRanges": [
+        [
+          849,
+          890
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-023",
+        "sourceUnit": "U-023",
+        "lineRanges": [
+          [
+            290,
+            331
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-024",
+      "sourceSection": "S-024",
+      "stableIdentifier": "ProductStateFingerprint Included Scope",
+      "sourceRanges": [
+        [
+          891,
+          933
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-024",
+        "sourceUnit": "U-024",
+        "lineRanges": [
+          [
+            337,
+            379
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-025",
+      "sourceSection": "S-025",
+      "stableIdentifier": "ProductStateFingerprint Excluded Scope",
+      "sourceRanges": [
+        [
+          934,
+          968
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-025",
+        "sourceUnit": "U-025",
+        "lineRanges": [
+          [
+            385,
+            419
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-026",
+      "sourceSection": "S-026",
+      "stableIdentifier": "checkedTree Scope",
+      "sourceRanges": [
+        [
+          969,
+          1015
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-026",
+        "sourceUnit": "U-026",
+        "lineRanges": [
+          [
+            425,
+            471
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-027",
+      "sourceSection": "S-027",
+      "stableIdentifier": "CheckProof",
+      "sourceRanges": [
+        [
+          1016,
+          1050
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-027",
+        "sourceUnit": "U-027",
+        "lineRanges": [
+          [
+            477,
+            511
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-028",
+      "sourceSection": "S-028",
+      "stableIdentifier": "specFingerprint",
+      "sourceRanges": [
+        [
+          1051,
+          1072
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-028",
+        "sourceUnit": "U-028",
+        "lineRanges": [
+          [
+            517,
+            538
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-029",
+      "sourceSection": "S-029",
+      "stableIdentifier": "Git Diff ≠ Semantic Diff",
+      "sourceRanges": [
+        [
+          1073,
+          1118
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/semantic-diff/contract.md",
+        "anchor": "s-029",
+        "sourceUnit": "U-029",
+        "lineRanges": [
+          [
+            60,
+            105
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-030-1",
+      "sourceSection": "S-030",
+      "stableIdentifier": "`openproduct check --changed`",
+      "sourceRanges": [
+        [
+          1119,
+          1162
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/semantic-diff/contract.md",
+        "anchor": "s-030",
+        "sourceUnit": "U-030-1",
+        "lineRanges": [
+          [
+            111,
+            154
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-030-2",
+      "sourceSection": "S-030",
+      "stableIdentifier": "`openproduct check --against canonical`",
+      "sourceRanges": [
+        [
+          1163,
+          1205
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/semantic-diff/contract.md",
+        "anchor": "s-030",
+        "sourceUnit": "U-030-2",
+        "lineRanges": [
+          [
+            155,
+            197
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-030-3",
+      "sourceSection": "S-030",
+      "stableIdentifier": "`openproduct check --all`",
+      "sourceRanges": [
+        [
+          1206,
+          1225
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/semantic-diff/contract.md",
+        "anchor": "s-030",
+        "sourceUnit": "U-030-3",
+        "lineRanges": [
+          [
+            198,
+            217
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-031",
+      "sourceSection": "S-031",
+      "stableIdentifier": "Exact-State Binding",
+      "sourceRanges": [
+        [
+          1226,
+          1249
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/contract.md",
+        "anchor": "s-031",
+        "sourceUnit": "U-031",
+        "lineRanges": [
+          [
+            544,
+            567
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-032",
+      "sourceSection": "S-032",
+      "stableIdentifier": "Semantic Impact Closure",
+      "sourceRanges": [
+        [
+          1250,
+          1309
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/semantic-diff/contract.md",
+        "anchor": "s-032",
+        "sourceUnit": "U-032",
+        "lineRanges": [
+          [
+            223,
+            282
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-033",
+      "sourceSection": "S-033",
+      "stableIdentifier": "Core Semantic Invariants",
+      "sourceRanges": [
+        [
+          1310,
+          1361
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/object-schema/contract.md",
+        "anchor": "s-033",
+        "sourceUnit": "U-033",
+        "lineRanges": [
+          [
+            115,
+            166
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-034",
+      "sourceSection": "S-034",
+      "stableIdentifier": "Capability Target Conflict",
+      "sourceRanges": [
+        [
+          1362,
+          1422
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/relation-schema/contract.md",
+        "anchor": "s-034",
+        "sourceUnit": "U-034",
+        "lineRanges": [
+          [
+            48,
+            108
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-035",
+      "sourceSection": "S-035",
+      "stableIdentifier": "Proof Scope",
+      "sourceRanges": [
+        [
+          1423,
+          1456
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/object-schema/contract.md",
+        "anchor": "s-035",
+        "sourceUnit": "U-035",
+        "lineRanges": [
+          [
+            172,
+            205
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-036",
+      "sourceSection": "S-036",
+      "stableIdentifier": "Low-Token Contract",
+      "sourceRanges": [
+        [
+          1457,
+          1484
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/context-contract/contract.md",
+        "anchor": "s-036",
+        "sourceUnit": "U-036",
+        "lineRanges": [
+          [
+            63,
+            90
+          ]
+        ]
+      },
+      "enforcementStatus": "NOT_APPLICABLE",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-037",
+      "sourceSection": "S-037",
+      "stableIdentifier": "Context Compiler",
+      "sourceRanges": [
+        [
+          1485,
+          1507
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/context-contract/contract.md",
+        "anchor": "s-037",
+        "sourceUnit": "U-037",
+        "lineRanges": [
+          [
+            96,
+            118
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-038",
+      "sourceSection": "S-038",
+      "stableIdentifier": "Context Isolation",
+      "sourceRanges": [
+        [
+          1508,
+          1553
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/context-contract/contract.md",
+        "anchor": "s-038",
+        "sourceUnit": "U-038",
+        "lineRanges": [
+          [
+            124,
+            169
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-039",
+      "sourceSection": "S-039",
+      "stableIdentifier": "Golden-test minimum, mandatory G-23 and exact-state distinction",
+      "sourceRanges": [
+        [
+          1554,
+          1558
+        ],
+        [
+          1685,
+          1698
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "U-039",
+        "lineRanges": [
+          [
+            10,
+            14
+          ],
+          [
+            141,
+            154
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-01",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-01 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1559,
+          1563
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-01",
+        "lineRanges": [
+          [
+            15,
+            19
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-02",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-02 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1564,
+          1568
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-02",
+        "lineRanges": [
+          [
+            20,
+            24
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-03",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-03 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1569,
+          1573
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-03",
+        "lineRanges": [
+          [
+            25,
+            29
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-04",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-04 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1574,
+          1580
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-04",
+        "lineRanges": [
+          [
+            30,
+            36
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-05",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-05 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1581,
+          1586
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-05",
+        "lineRanges": [
+          [
+            37,
+            42
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-06",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-06 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1587,
+          1591
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-06",
+        "lineRanges": [
+          [
+            43,
+            47
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-07",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-07 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1592,
+          1596
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-07",
+        "lineRanges": [
+          [
+            48,
+            52
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-08",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-08 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1597,
+          1601
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-08",
+        "lineRanges": [
+          [
+            53,
+            57
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-09",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-09 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1602,
+          1606
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-09",
+        "lineRanges": [
+          [
+            58,
+            62
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-10",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-10 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1607,
+          1611
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-10",
+        "lineRanges": [
+          [
+            63,
+            67
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-11",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-11 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1612,
+          1616
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-11",
+        "lineRanges": [
+          [
+            68,
+            72
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-12",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-12 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1617,
+          1622
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-12",
+        "lineRanges": [
+          [
+            73,
+            78
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-13",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-13 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1623,
+          1627
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-13",
+        "lineRanges": [
+          [
+            79,
+            83
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-14",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-14 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1628,
+          1632
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-14",
+        "lineRanges": [
+          [
+            84,
+            88
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-15",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-15 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1633,
+          1637
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-15",
+        "lineRanges": [
+          [
+            89,
+            93
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-16",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-16 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1638,
+          1643
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-16",
+        "lineRanges": [
+          [
+            94,
+            99
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-17",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-17 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1644,
+          1650
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-17",
+        "lineRanges": [
+          [
+            100,
+            106
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-18",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-18 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1651,
+          1657
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-18",
+        "lineRanges": [
+          [
+            107,
+            113
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-19",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-19 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1658,
+          1662
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-19",
+        "lineRanges": [
+          [
+            114,
+            118
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-20",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-20 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1663,
+          1667
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-20",
+        "lineRanges": [
+          [
+            119,
+            123
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-21",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-21 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1668,
+          1672
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-21",
+        "lineRanges": [
+          [
+            124,
+            128
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-22",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-22 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1673,
+          1677
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-22",
+        "lineRanges": [
+          [
+            129,
+            133
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "G-23",
+      "sourceSection": "S-039",
+      "stableIdentifier": "G-23 frozen given/when/then",
+      "sourceRanges": [
+        [
+          1678,
+          1684
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/authority-contract/golden-tests.md",
+        "anchor": "s-039",
+        "sourceUnit": "G-23",
+        "lineRanges": [
+          [
+            134,
+            140
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-040",
+      "sourceSection": "S-040",
+      "stableIdentifier": "Error Model",
+      "sourceRanges": [
+        [
+          1699,
+          1742
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "spec/errors/contract.md",
+        "anchor": "s-040",
+        "sourceUnit": "U-040",
+        "lineRanges": [
+          [
+            10,
+            53
+          ]
+        ]
+      },
+      "enforcementStatus": "DEFERRED_TO_IMPLEMENTATION",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-041",
+      "sourceSection": "S-041",
+      "stableIdentifier": "Execution Order",
+      "sourceRanges": [
+        [
+          1743,
+          1826
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "docs/implementation-contract.md",
+        "anchor": "s-041",
+        "sourceUnit": "U-041",
+        "lineRanges": [
+          [
+            112,
+            195
+          ]
+        ]
+      },
+      "enforcementStatus": "NOT_APPLICABLE",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-042",
+      "sourceSection": "S-042",
+      "stableIdentifier": "Constraints",
+      "sourceRanges": [
+        [
+          1827,
+          1876
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "docs/implementation-contract.md",
+        "anchor": "s-042",
+        "sourceUnit": "U-042",
+        "lineRanges": [
+          [
+            201,
+            250
+          ]
+        ]
+      },
+      "enforcementStatus": "NOT_APPLICABLE",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-043",
+      "sourceSection": "S-043",
+      "stableIdentifier": "Acceptance",
+      "sourceRanges": [
+        [
+          1877,
+          1933
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "docs/implementation-contract.md",
+        "anchor": "s-043",
+        "sourceUnit": "U-043",
+        "lineRanges": [
+          [
+            256,
+            312
+          ]
+        ]
+      },
+      "enforcementStatus": "NOT_APPLICABLE",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    },
+    {
+      "id": "U-044",
+      "sourceSection": "S-044",
+      "stableIdentifier": "Required Final Recap",
+      "sourceRanges": [
+        [
+          1934,
+          1964
+        ]
+      ],
+      "semanticDisposition": "COMPILED",
+      "canonicalOwner": {
+        "path": "docs/implementation-contract.md",
+        "anchor": "s-044",
+        "sourceUnit": "U-044",
+        "lineRanges": [
+          [
+            318,
+            348
+          ]
+        ]
+      },
+      "enforcementStatus": "NOT_APPLICABLE",
+      "enforcementEvidence": null,
+      "boundary": "MIXED: requirements normative; source rationale/examples/presentation remain non-normative",
+      "notes": "Exact source text retained. No runtime enforcement claimed."
+    }
+  ],
+  "coverageChecklist": [
+    {
+      "identity": "Product Boundary",
+      "sourceSection": "S-004",
+      "sourceUnits": [
+        "U-004"
+      ]
+    },
+    {
+      "identity": "Runtime Boundary",
+      "sourceSection": "S-005",
+      "sourceUnits": [
+        "U-005"
+      ]
+    },
+    {
+      "identity": "Canonical Representation",
+      "sourceSection": "S-006",
+      "sourceUnits": [
+        "U-006"
+      ]
+    },
+    {
+      "identity": "Product State Authority",
+      "sourceSection": "S-007",
+      "sourceUnits": [
+        "U-007"
+      ]
+    },
+    {
+      "identity": "canonicalRef",
+      "sourceSection": "S-007",
+      "sourceUnits": [
+        "U-007"
+      ]
+    },
+    {
+      "identity": "Accepted Product State",
+      "sourceSection": "S-008",
+      "sourceUnits": [
+        "U-008"
+      ]
+    },
+    {
+      "identity": "State Classes",
+      "sourceSection": "S-009",
+      "sourceUnits": [
+        "U-009"
+      ]
+    },
+    {
+      "identity": "Acceptance Flow",
+      "sourceSection": "S-010",
+      "sourceUnits": [
+        "U-010"
+      ]
+    },
+    {
+      "identity": "Normative Product Representation",
+      "sourceSection": "S-011",
+      "sourceUnits": [
+        "U-011"
+      ]
+    },
+    {
+      "identity": "Frontmatter Contract",
+      "sourceSection": "S-012",
+      "sourceUnits": [
+        "U-012"
+      ]
+    },
+    {
+      "identity": "Canonical Sections",
+      "sourceSection": "S-013",
+      "sourceUnits": [
+        "U-013"
+      ]
+    },
+    {
+      "identity": "Free-form Markdown boundary",
+      "sourceSection": "S-014",
+      "sourceUnits": [
+        "U-014"
+      ]
+    },
+    {
+      "identity": "Relation Authority",
+      "sourceSection": "S-015",
+      "sourceUnits": [
+        "U-015"
+      ]
+    },
+    {
+      "identity": "current.md authority boundary",
+      "sourceSection": "S-016",
+      "sourceUnits": [
+        "U-016"
+      ]
+    },
+    {
+      "identity": "SemanticFingerprint",
+      "sourceSection": "S-017",
+      "sourceUnits": [
+        "U-017"
+      ]
+    },
+    {
+      "identity": "Revision Contract",
+      "sourceSection": "S-018",
+      "sourceUnits": [
+        "U-018"
+      ]
+    },
+    {
+      "identity": "RevisionBaseline",
+      "sourceSection": "S-019",
+      "sourceUnits": [
+        "U-019"
+      ]
+    },
+    {
+      "identity": "Bootstrap",
+      "sourceSection": "S-020",
+      "sourceUnits": [
+        "U-020"
+      ]
+    },
+    {
+      "identity": "Relation Change and Revision",
+      "sourceSection": "S-021",
+      "sourceUnits": [
+        "U-021"
+      ]
+    },
+    {
+      "identity": "ProductStateFingerprint",
+      "sourceSection": "S-022",
+      "sourceUnits": [
+        "U-022"
+      ]
+    },
+    {
+      "identity": "ProductStateFingerprint included scope",
+      "sourceSection": "S-024",
+      "sourceUnits": [
+        "U-024"
+      ]
+    },
+    {
+      "identity": "ProductStateFingerprint excluded scope",
+      "sourceSection": "S-025",
+      "sourceUnits": [
+        "U-025"
+      ]
+    },
+    {
+      "identity": "checkedTree scope",
+      "sourceSection": "S-026",
+      "sourceUnits": [
+        "U-026"
+      ]
+    },
+    {
+      "identity": "CheckProof",
+      "sourceSection": "S-027",
+      "sourceUnits": [
+        "U-027"
+      ]
+    },
+    {
+      "identity": "specFingerprint",
+      "sourceSection": "S-028",
+      "sourceUnits": [
+        "U-028"
+      ]
+    },
+    {
+      "identity": "Git Diff ≠ Semantic Diff",
+      "sourceSection": "S-029",
+      "sourceUnits": [
+        "U-029"
+      ]
+    },
+    {
+      "identity": "check --changed",
+      "sourceSection": "S-030",
+      "sourceUnits": [
+        "U-030-1",
+        "U-030-2",
+        "U-030-3"
+      ]
+    },
+    {
+      "identity": "check --against canonical",
+      "sourceSection": "S-030",
+      "sourceUnits": [
+        "U-030-1",
+        "U-030-2",
+        "U-030-3"
+      ]
+    },
+    {
+      "identity": "check --all",
+      "sourceSection": "S-030",
+      "sourceUnits": [
+        "U-030-1",
+        "U-030-2",
+        "U-030-3"
+      ]
+    },
+    {
+      "identity": "Exact-State Binding",
+      "sourceSection": "S-031",
+      "sourceUnits": [
+        "U-031"
+      ]
+    },
+    {
+      "identity": "Semantic Impact Closure",
+      "sourceSection": "S-032",
+      "sourceUnits": [
+        "U-032"
+      ]
+    },
+    {
+      "identity": "Core Semantic Invariants",
+      "sourceSection": "S-033",
+      "sourceUnits": [
+        "U-033"
+      ]
+    },
+    {
+      "identity": "Capability Target Conflict",
+      "sourceSection": "S-034",
+      "sourceUnits": [
+        "U-034"
+      ]
+    },
+    {
+      "identity": "Verification / Validation Proof Scope",
+      "sourceSection": "S-035",
+      "sourceUnits": [
+        "U-035"
+      ]
+    },
+    {
+      "identity": "Low-Token Contract",
+      "sourceSection": "S-036",
+      "sourceUnits": [
+        "U-036"
+      ]
+    },
+    {
+      "identity": "Context Compiler contract",
+      "sourceSection": "S-037",
+      "sourceUnits": [
+        "U-037"
+      ]
+    },
+    {
+      "identity": "Context Isolation",
+      "sourceSection": "S-038",
+      "sourceUnits": [
+        "U-038"
+      ]
+    },
+    {
+      "identity": "Golden Tests G-01…G-23",
+      "sourceSection": "S-039",
+      "sourceUnits": [
+        "U-039",
+        "G-01",
+        "G-02",
+        "G-03",
+        "G-04",
+        "G-05",
+        "G-06",
+        "G-07",
+        "G-08",
+        "G-09",
+        "G-10",
+        "G-11",
+        "G-12",
+        "G-13",
+        "G-14",
+        "G-15",
+        "G-16",
+        "G-17",
+        "G-18",
+        "G-19",
+        "G-20",
+        "G-21",
+        "G-22",
+        "G-23"
+      ]
+    },
+    {
+      "identity": "Error Model",
+      "sourceSection": "S-040",
+      "sourceUnits": [
+        "U-040"
+      ]
+    },
+    {
+      "identity": "Execution Order",
+      "sourceSection": "S-041",
+      "sourceUnits": [
+        "U-041"
+      ]
+    },
+    {
+      "identity": "Constraints",
+      "sourceSection": "S-042",
+      "sourceUnits": [
+        "U-042"
+      ]
+    },
+    {
+      "identity": "Acceptance",
+      "sourceSection": "S-043",
+      "sourceUnits": [
+        "U-043"
+      ]
+    },
+    {
+      "identity": "Required Final Recap",
+      "sourceSection": "S-044",
+      "sourceUnits": [
+        "U-044"
+      ]
+    }
+  ]
+}

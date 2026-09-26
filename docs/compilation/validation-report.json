@@ -1,0 +1,132 @@
+{
+  "result": "PASS",
+  "sourceFingerprint": "3d7d12977b767e42d11a8f83f72fce049f232a332a2457936876c671e2cf6855",
+  "sourceByteLength": 27000,
+  "inputToProvenanceIntegrity": "PASS: current external bytes rechecked",
+  "postCompilationIntegrity": "PASS",
+  "topLevelSections": 44,
+  "frozenSourceSections": 71,
+  "unreviewedSections": 0,
+  "decisionRelevantSectionsWithoutUnits": 0,
+  "sourceUnits": 69,
+  "unmapped": 0,
+  "compiledWithoutCanonicalOwner": 0,
+  "duplicateDeclaredEffectiveNormativeOwners": 0,
+  "sourceLinesOmitted": 0,
+  "canonicalFiles": 11,
+  "registeredRepeatedRuleIdentities": 31,
+  "enforcement": {
+    "NOT_APPLICABLE": 11,
+    "DEFERRED_TO_IMPLEMENTATION": 58
+  },
+  "limitations": "Semantic unitization and underlying rule identity are reviewed judgments; structural and text checks do not independently prove natural-language completeness. No product runtime/golden execution is asserted.",
+  "rejectionSelfTests": [
+    "mutated provenance bytes",
+    "unreviewed source section",
+    "uninventoried decision section",
+    "unmapped source unit",
+    "compiled without owner",
+    "missing disposition",
+    "invented runtime enforcement",
+    "normative boundary lost",
+    "altered golden semantics",
+    "altered execution order",
+    "source line omitted",
+    "duplicate effective rule owner",
+    "broken agent route"
+  ],
+  "compilationStatus": "CLOSED",
+  "semanticReview": {
+    "reviewedTopLevelRegions": 44,
+    "reviewedNestedHeadingRegions": 4,
+    "reviewedGoldenRegions": 23,
+    "silentSemanticOmissions": 0,
+    "duplicateEffectiveNormativeOwners": 0,
+    "basis": "Every original source line retained in exactly one unit payload; all sections reviewed; repeated rules have primary owners; rationale/examples remain source-role material. Semantic completeness/identity includes human-style judgment rather than hash-only proof."
+  },
+  "proofs": {
+    "A": {
+      "result": "PASS",
+      "evidence": "Exact external input bytes equal immutable provenance; input/repository SHA-256 and lengths equal."
+    },
+    "B": {
+      "result": "PASS",
+      "evidence": "Current provenance SHA-256/length equal the pre-compilation baseline."
+    },
+    "C": {
+      "result": "PASS",
+      "evidence": "All 44 top-level, 4 nested heading, 23 named golden regions reviewed; no section lacks units."
+    },
+    "D": {
+      "result": "PASS",
+      "evidence": "69 units compiled, all source lines partitioned once and exact canonical text preserved; semantic review found no omitted decision-relevant content."
+    },
+    "E": {
+      "result": "PASS",
+      "evidence": "Each unit has one owner; 31 recurring rule identities have single effective owners and reference-only occurrences; golden scenarios do not compete with underlying rules."
+    },
+    "F": {
+      "result": "PASS",
+      "evidence": "Reviewed source-role boundaries retained; illustrative main ref/type-id ordering are not chosen policies; rationale does not create new requirements."
+    },
+    "G": {
+      "result": "PASS",
+      "evidence": "No product ENFORCED claims; G-01..G-23, revisions, CheckProof and Context Isolation are COMPILED/deferred independently."
+    },
+    "H": {
+      "result": "PASS",
+      "evidence": "AGENTS -> spec index -> task-relevant file/anchor; all relative links and source anchors checked."
+    },
+    "I": {
+      "result": "PASS",
+      "evidence": "Normal routing reads relevant owner only; whole provenance is explicitly investigative, with all source units discoverable via map."
+    },
+    "J": {
+      "result": "PASS",
+      "evidence": "S-041 retained verbatim, including all 20 original implementation steps and dependency order."
+    },
+    "K": {
+      "result": "PASS",
+      "evidence": "All 23 added files inspected: instructions, attributes, canonical clauses, provenance, audit registers/report, and one compilation-only validator; no product runtime or executable golden implementation."
+    },
+    "L": {
+      "result": "NONE",
+      "evidence": "Initial repository contained only LICENSE. No pre-existing applicable mechanical validation existed."
+    }
+  },
+  "newCompilationValidation": {
+    "result": "PASS",
+    "rejectionCases": 13,
+    "allNewFileWhitespaceChecks": "PASS",
+    "newFilesChecked": 23
+  },
+  "remaining": "Runtime enforcement and source-prescribed concrete specification deltas remain for a separate implementation goal; no Stage 2 prompt or runtime work produced.",
+  "blockers": [],
+  "unavailableReferencedMaterial": [
+    "Standalone latest Operation Protocol: not supplied or located; no compliance claim beyond provided instructions."
+  ],
+  "artifactSha256": {
+    ".gitattributes": "ccf9f717a2751ac983a436e978fdd4644e830de3fbde5c2f2946c03cc0bdf11e",
+    "AGENTS.md": "27b31644a2474722279031334b805336a91479e280acbe99e28191e7022f7423",
+    "docs/compilation/compilation-map.json": "5a2ff85e7377b82791bf955ee589fdf4fd60c2bde1d2eff99860aafaf7e33e08",
+    "docs/compilation/ownership.json": "3fba082c11c2c85f24f85045c6b26546fa936595f5a7c0abb1812515b5d3a512",
+    "docs/compilation/README.md": "20a5a42a15dd3c8a05d9f991af85afdfbbe31889249588cc5597ec2d61d28540",
+    "docs/compilation/source-integrity.json": "4138fb00b96fef7ac02d7ea19aa1a35f44c815025ab263a3bfcaeed72987b5a3",
+    "docs/implementation-contract.md": "45f57d3c3f5d4b788f5584869b042f2e34a2daa769e879684891da57ca0180e7",
+    "docs/provenance/openproduct-v0.1-frozen.md": "3d7d12977b767e42d11a8f83f72fce049f232a332a2457936876c671e2cf6855",
+    "docs/provenance/README.md": "0abad434d1630c67ef0364a6727989b88446ea3c636cc595e7219541deda196d",
+    "docs/provenance/stage-1-compilation-request.md": "e96567127c445964956b747803c16d30a3072989d47de38110ba39a8b400d9ba",
+    "scripts/validate_contract_compilation.py": "f7446687a744bd24dde0a5fc19afcdf044ac0a586593f9688cba4cf2cf4f475d",
+    "spec/authority-contract/contract.md": "22c3509fe9e21cc5e59aa8f17a33a8b20f88997835876fd3aa0c84c8a5ccf016",
+    "spec/authority-contract/golden-tests.md": "36ce3bcbc4a9bd4207f91b60fab64316790b492aa0a74c31ac173a71b5a21c47",
+    "spec/canonical-markdown-grammar/contract.md": "aa21bdbfa71f99e0b10ad3ab759c8b9426b48c2123b0248ed3d6719ec5a88aff",
+    "spec/context-contract/contract.md": "877949e099e752d24b1e937e25a27a24bd66fa3a571a7ce284addefe999d365f",
+    "spec/errors/contract.md": "f02c8ccce586b343b51e381ab60707ec7c6752276133ae61726b46b899bb0461",
+    "spec/frontmatter-schema/contract.md": "2cae99fbb44eebcab9f5b6885de85dae72d8378dfe5d52b688c83580c644d256",
+    "spec/object-schema/contract.md": "3cf78ee3404de8a986217561bff910da8f754e9fef39c7031ea3aa5ed9c937a8",
+    "spec/README.md": "56d7038a7152c01c427cccba423101b795d05a71ecf90db4195bcad141afac55",
+    "spec/relation-schema/contract.md": "93cdb62a495cc4603dccf8a90fe8ceaf02094d87ecabc6ad28b236d4ea19153b",
+    "spec/revision-rules/contract.md": "05b46742f473f88c8a789fedff012c6da820929205ae6be750635e04e1e7b1ee",
+    "spec/semantic-diff/contract.md": "e2a6f1d339d9b8647a48e5554a5c4722af1985214bcab894086f1ed34ce3441b"
+  }
+}

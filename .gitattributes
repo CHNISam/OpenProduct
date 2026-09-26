@@ -1,0 +1,4 @@
+/docs/provenance/*.md -text
+/spec/*/contract.md -text
+/spec/authority-contract/golden-tests.md -text
+/docs/implementation-contract.md -text
