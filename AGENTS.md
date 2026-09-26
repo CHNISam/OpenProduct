@@ -2,6 +2,30 @@
 
 Work in this repository. Begin with the current Git/worktree state and the actual delta.
 
+## Execution authority: Backlog.md
+
+`backlog/` is the single writable record for engineering backlog, readiness, doing,
+blockers, completion, dependencies, ownership, plans and progress. Use the native
+Backlog.md CLI; do not maintain parallel Issue checklists, `todos/`, execution plans
+under `docs/plans/`, or progress tables in documentation. This instruction supersedes
+the historical execution-tracker mappings above and the Issue work-authority wording
+in `.harness/AGENT.md`; it does not bypass integration gates.
+
+Run `npx backlog.md@1.53.0 instructions overview` and read its matching creation,
+execution or finalization guide before managing work. Prefer an already installed
+Backlog.md 1.53.0 binary when available; do not install duplicate copies.
+Search/list/view before creating a task. Read its requirement references and
+dependencies, assign yourself and set Doing before implementation. Record the plan
+and progress through `task edit`; set Blocked with the exact reason and unblock
+condition when work cannot continue. Check acceptance criteria only against objective
+verification, record the final summary, and set Done when those criteria are met.
+Integration-dependent work stays open until its integration criterion is met.
+
+Product Model objects, `/spec` and product decisions own meaning and requirements.
+Tasks reference those owners and never redefine them. Backlog's document/decision
+features are not additional product authorities. See [execution usage](docs/execution.md)
+for native commands, migrated work and the remaining OpenHarness compatibility gap.
+
 Read [the contract index](spec/README.md), then only the owners relevant to the task. The index routes product boundaries, authority, representation, revisions, diffs, context, errors, golden cases, and implementation obligations. Compiled `/spec` is the daily contract authority after the Stage 1 audit passes.
 
 For compilation status and evidence, read [the audit](docs/compilation/README.md) and its validation report. Semantic compilation and runtime enforcement are separate. Run `python -X utf8 scripts/validate_contract_compilation.py` for changes to the compiled environment. This is a compilation audit, not `openproduct check` or a runtime acceptance proof.

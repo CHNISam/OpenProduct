@@ -2,7 +2,7 @@
 
 OpenProduct v0.1 is a structured Markdown and Git Product graph with deterministic checks, revision-scoped proof and task-relevant context for generic coding agents.
 
-Start with [usage](docs/usage.md), [the canonical contract](spec/README.md), or [repository agent instructions](AGENTS.md). The [frozen implementation obligations](docs/implementation-contract.md) govern the remaining acceptance work. OpenHarness owns repository execution and integration guarantees.
+Start with [usage](docs/usage.md), [the canonical contract](spec/README.md), or [repository agent instructions](AGENTS.md). [Backlog.md](docs/execution.md) owns engineering execution state; the [frozen implementation obligations](docs/implementation-contract.md) retain product implementation requirements. OpenHarness retains protected integration and evidence gates, with its legacy work-authority compatibility gap tracked in Backlog.
 
 ```powershell
 python -m openproduct --help
